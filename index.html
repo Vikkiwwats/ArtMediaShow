@@ -382,6 +382,331 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
   footer{padding:40px 28px}
   .ft-btm{padding:0 28px 28px}
 }
+/* ═══════════════════════════════════
+   PREMIUM MOBILE OPTIMIZATION
+═══════════════════════════════════ */
+
+@media (max-width: 768px){
+
+  html{
+    overflow-x:hidden;
+  }
+
+  body{
+    overflow-x:hidden;
+  }
+
+  /* HERO */
+
+  #hero{
+    min-height:auto;
+    padding-bottom:80px;
+  }
+
+  .hero-inner{
+    padding:120px 24px 40px;
+  }
+
+  .h-title{
+    line-height:.88;
+    letter-spacing:2px;
+  }
+
+  .h-t1,
+  .h-t2{
+    font-size:clamp(58px,18vw,92px);
+  }
+
+  .h-t3{
+    font-size:12px;
+    letter-spacing:5px;
+    margin-top:10px;
+  }
+
+  .h-desc{
+    font-size:14px;
+    line-height:1.7;
+    max-width:100%;
+    margin-bottom:32px;
+  }
+
+  .h-btns{
+    flex-direction:column;
+    width:100%;
+  }
+
+  .btn1,
+  .btn2{
+    width:100%;
+    justify-content:center;
+    padding:18px 24px;
+  }
+
+  .h-stats{
+    margin-top:48px;
+    gap:18px;
+  }
+
+  .h-stat{
+    width:calc(50% - 10px);
+  }
+
+  .h-stat-n{
+    font-size:38px;
+  }
+
+  .h-scroll{
+    display:none;
+  }
+
+  /* NAV */
+
+  nav{
+    padding:18px 20px;
+  }
+
+  nav.stuck{
+    padding:14px 20px;
+  }
+
+  .nlogo-text{
+    font-size:22px;
+  }
+
+  .nlogo-text span{
+    font-size:8px;
+    letter-spacing:3px;
+  }
+
+  /* GLOBAL */
+
+  .sec-in{
+    padding:72px 20px;
+  }
+
+  .sh{
+    font-size:52px;
+    line-height:.95;
+  }
+
+  .ssub{
+    font-size:14px;
+    line-height:1.7;
+  }
+
+  /* ABOUT */
+
+  .ab-grid{
+    gap:32px;
+  }
+
+  .ab-text p{
+    font-size:14px;
+    line-height:1.8;
+  }
+
+  .ab-vals{
+    grid-template-columns:1fr;
+  }
+
+  .ab-badge{
+    width:90px;
+    height:90px;
+    right:-10px;
+    bottom:-10px;
+  }
+
+  .ab-bn{
+    font-size:32px;
+  }
+
+  /* SERVICES */
+
+  .srv-grid{
+    gap:1px;
+    border-radius:16px;
+  }
+
+  .sc{
+    padding:32px 24px;
+  }
+
+  .sc-name{
+    font-size:17px;
+  }
+
+  .sc-desc{
+    font-size:13px;
+    line-height:1.7;
+  }
+
+  /* EQUIPMENT */
+
+  .eq-tabs{
+    width:100%;
+    overflow:auto;
+    border-radius:18px;
+  }
+
+  .eqt{
+    flex:1;
+    white-space:nowrap;
+    padding:12px 18px;
+  }
+
+  .eq-grid{
+    grid-template-columns:1fr;
+  }
+
+  .eqc-img{
+    height:180px;
+  }
+
+  /* PROJECTS */
+
+  .proj-grid{
+    grid-template-columns:1fr;
+    gap:12px;
+  }
+
+  .pi{
+    height:220px !important;
+  }
+
+  /* CLIENTS */
+
+  .cl-logos{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .cll{
+    height:82px;
+  }
+
+  .tms{
+    gap:16px;
+  }
+
+  .tm{
+    padding:24px;
+  }
+
+  /* PROCESS */
+
+  .proc-steps{
+    grid-template-columns:1fr;
+    gap:48px;
+  }
+
+  .ps{
+    padding:0;
+  }
+
+  .ps-ring{
+    width:84px;
+    height:84px;
+  }
+
+  /* CONTACT */
+
+  .cnt-grid{
+    gap:42px;
+  }
+
+  .cnt-tl{
+    font-size:38px;
+  }
+
+  .cnt-desc{
+    font-size:14px;
+    line-height:1.8;
+  }
+
+  .fr{
+    grid-template-columns:1fr;
+  }
+
+  .fg input,
+  .fg select,
+  .fg textarea{
+    font-size:16px;
+  }
+
+  /* FOOTER */
+
+  footer{
+    padding:48px 20px;
+  }
+
+  .ft-in{
+    gap:40px;
+  }
+
+  .ft-btm{
+    padding-top:20px;
+    gap:8px;
+  }
+
+  /* PERFORMANCE */
+
+  .h-orb{
+    filter:blur(70px);
+    opacity:.7;
+  }
+
+  .hn,
+  .hn-arc{
+    opacity:.45;
+  }
+
+  #cur,
+  #cur2{
+    display:none;
+  }
+
+}
+
+
+/* EXTRA SMALL DEVICES */
+
+@media (max-width: 480px){
+
+  .h-t1,
+  .h-t2{
+    font-size:54px;
+  }
+
+  .sh{
+    font-size:44px;
+  }
+
+  .h-stat{
+    width:100%;
+  }
+
+  .h-btns{
+    gap:12px;
+  }
+
+  .btn1,
+  .btn2{
+    font-size:12px;
+  }
+
+  .sc{
+    padding:28px 20px;
+  }
+
+  .eqc-body{
+    padding:18px;
+  }
+
+  .tm{
+    padding:20px;
+  }
+
+}
+  
 </style>
 </head>
 <body>
