@@ -329,6 +329,10 @@ nav.stuck{background:rgba(0,0,0,.75);backdrop-filter:blur(32px);-webkit-backdrop
 .fsub::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.15),transparent);opacity:0;transition:opacity .3s}
 .fsub:hover{transform:translateY(-2px);box-shadow:0 12px 60px rgba(255,85,0,.5)}
 .fsub:hover::after{opacity:1}
+.fsub:disabled{cursor:wait;transform:none;box-shadow:none}
+.form-status{margin-top:14px;font-size:13px;line-height:1.6;color:var(--w80)}
+.form-status[data-state="success"]{color:#4ade80}
+.form-status[data-state="error"]{color:var(--o3)}
 
 /* ══ FOOTER ══ */
 footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
@@ -680,21 +684,23 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
           <div class="cd"><div class="cd-ico">📍</div><div><div class="cd-lbl">Город</div><div class="cd-val">Укажите ваш город</div></div></div>
         </div>
       </div>
-      <div class="cnt-form rv d2">
+      <form class="cnt-form rv d2" id="contact-form" action="https://formspree.io/f/myeklvge" method="POST" accept-charset="UTF-8">
         <div class="fr">
-          <div class="fg"><label>Ваше имя</label><input type="text" placeholder="Иван Иванов"></div>
-          <div class="fg"><label>Телефон</label><input type="tel" placeholder="+7 (___) ___-__-__"></div>
+          <div class="fg"><label for="contact-name">Ваше имя</label><input id="contact-name" name="Имя" type="text" placeholder="Иван Иванов" autocomplete="name" maxlength="120" required></div>
+          <div class="fg"><label for="contact-phone">Телефон</label><input id="contact-phone" name="Телефон" type="tel" placeholder="+7 (___) ___-__-__" autocomplete="tel" maxlength="40" required></div>
         </div>
-        <div class="fg"><label>Тип мероприятия</label>
-          <select><option value="">— Выберите тип —</option><option>Концерт / Шоу</option><option>Корпоратив</option><option>Конференция / Форум</option><option>Фестиваль / Open-Air</option><option>Свадьба / Частное событие</option><option>Другое</option></select>
+        <div class="fg"><label for="contact-event-type">Тип мероприятия</label>
+          <select id="contact-event-type" name="Тип мероприятия"><option value="">— Выберите тип —</option><option>Концерт / Шоу</option><option>Корпоратив</option><option>Конференция / Форум</option><option>Фестиваль / Open-Air</option><option>Свадьба / Частное событие</option><option>Другое</option></select>
         </div>
         <div class="fr">
-          <div class="fg"><label>Дата события</label><input type="date"></div>
-          <div class="fg"><label>Площадка / Город</label><input type="text" placeholder="Клуб, стадион, улица..."></div>
+          <div class="fg"><label for="contact-date">Дата события</label><input id="contact-date" name="Дата события" type="date"></div>
+          <div class="fg"><label for="contact-venue">Площадка / Город</label><input id="contact-venue" name="Площадка / Город" type="text" placeholder="Клуб, стадион, улица..." maxlength="250"></div>
         </div>
-        <div class="fg"><label>Расскажите о проекте</label><textarea placeholder="Опишите мероприятие, площадку, пожелания по оборудованию..."></textarea></div>
-        <button class="fsub" id="fsub">Отправить заявку →</button>
-      </div>
+        <div class="fg"><label for="contact-message">Расскажите о проекте</label><textarea id="contact-message" name="Описание проекта" placeholder="Опишите мероприятие, площадку, пожелания по оборудованию..." maxlength="10000"></textarea></div>
+        <div hidden><label>Оставьте это поле пустым<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+        <button class="fsub" id="fsub" type="submit" aria-describedby="form-status">Отправить заявку →</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite" aria-atomic="true" hidden></p>
+      </form>
     </div>
   </div>
 </section>
@@ -841,12 +847,71 @@ document.addEventListener('mousemove',e=>{
 });
 
 // Form submit
-document.getElementById('fsub').addEventListener('click',function(){
-  this.textContent='✓ Заявка отправлена!';
-  this.style.background='linear-gradient(135deg,#1a1a1a,#222)';
-  this.style.border='1px solid rgba(255,85,0,.2)';
-  setTimeout(()=>{this.textContent='Отправить заявку →';this.style.background='';this.style.border=''},3000);
+const contactForm=document.getElementById('contact-form');
+const submitButton=document.getElementById('fsub');
+const formStatus=document.getElementById('form-status');
+const submitLabel=submitButton.textContent;
+let formSending=false;
+
+contactForm.addEventListener('input',()=>{
+  if(formSending)return;
+  submitButton.textContent=submitLabel;
+  formStatus.hidden=true;
+  formStatus.textContent='';
+});
+
+contactForm.addEventListener('submit',async event=>{
+  event.preventDefault();
+  if(formSending||!contactForm.reportValidity())return;
+
+  const nameField=document.getElementById('contact-name');
+  const phoneField=document.getElementById('contact-phone');
+  if(!nameField.value.trim()||!phoneField.value.trim()){
+    formStatus.textContent='Пожалуйста, укажите имя и телефон.';
+    formStatus.dataset.state='error';
+    formStatus.hidden=false;
+    (!nameField.value.trim()?nameField:phoneField).focus();
+    return;
+  }
+
+  const formData=new FormData(contactForm);
+  formSending=true;
+  submitButton.disabled=true;
+  submitButton.textContent='Отправляем заявку…';
+  contactForm.setAttribute('aria-busy','true');
+  formStatus.hidden=true;
+  formStatus.textContent='';
+
+  const controller=new AbortController();
+  const timeout=setTimeout(()=>controller.abort(),25000);
+  try{
+    const response=await fetch(contactForm.action,{
+      method:'POST',
+      body:formData,
+      headers:{Accept:'application/json'},
+      signal:controller.signal
+    });
+    if(!response.ok)throw new Error('Form submission failed');
+
+    contactForm.reset();
+    submitButton.textContent='✓ Заявка отправлена!';
+    formStatus.textContent='Спасибо! Мы получили вашу заявку и свяжемся с вами.';
+    formStatus.dataset.state='success';
+  }catch(error){
+    submitButton.textContent=submitLabel;
+    formStatus.textContent=error.name==='AbortError'
+      ?'Не удалось подтвердить отправку. Проверьте подключение и попробуйте ещё раз.'
+      :'Не удалось отправить заявку. Попробуйте ещё раз или свяжитесь с нами по указанным контактам.';
+    formStatus.dataset.state='error';
+  }finally{
+    clearTimeout(timeout);
+    formSending=false;
+    submitButton.disabled=false;
+    contactForm.removeAttribute('aria-busy');
+    formStatus.hidden=false;
+  }
 });
 </script>
 </body>
 </html>
+
