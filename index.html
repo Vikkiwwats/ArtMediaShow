@@ -191,7 +191,7 @@ nav.stuck{background:rgba(0,0,0,.75);backdrop-filter:blur(32px);-webkit-backdrop
 /* ══ SERVICES ══ */
 #services{background:#000}
 #services::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:800px;height:2px;background:var(--grad);opacity:.4;filter:blur(1px)}
-.srv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--w05);margin-top:60px;border:1px solid var(--w05);border-radius:20px;overflow:hidden}
+.srv-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--w05);margin-top:60px;border:1px solid var(--w05);border-radius:20px;overflow:hidden}
 .sc{background:var(--d1);padding:44px 36px;position:relative;overflow:hidden;transition:background .4s;cursor:default}
 .sc::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:var(--grad);transform:scaleX(0);transform-origin:left;transition:transform .5s cubic-bezier(.4,0,.2,1)}
 .sc:hover{background:var(--d2)}
@@ -396,6 +396,170 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
   footer{padding:40px 28px}
   .ft-btm{padding:0 28px 28px}
 }
+/* Phone and tablet layout */
+.h-title-wrap{display:inline-block}
+.mobile-menu{display:none}
+@media(max-width:1100px){
+  nav{gap:18px}
+  .nlogo{margin-right:auto}
+  .mobile-menu{display:block}
+  .mobile-menu summary{display:flex;align-items:center;justify-content:center;gap:8px;min-width:44px;min-height:44px;padding:10px 14px;border:1px solid var(--w10);border-radius:12px;list-style:none;cursor:pointer;font-size:12px;font-weight:600;color:var(--w80)}
+  .mobile-menu summary::-webkit-details-marker{display:none}
+  .mobile-menu summary:focus-visible{outline:2px solid var(--o2);outline-offset:4px}
+  .mobile-menu[open] summary{border-color:var(--o1);background:var(--og);color:var(--o2)}
+  .mobile-menu-panel{position:absolute;top:calc(100% + 8px);left:28px;right:28px;display:grid;gap:4px;padding:12px;background:#101010;border:1px solid var(--ob);border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,.6);max-height:calc(100svh - 120px);overflow-y:auto}
+  .mobile-menu-panel a{display:flex;align-items:center;min-height:46px;padding:12px 16px;border-radius:10px;font-size:15px;font-weight:500;line-height:1.4;color:var(--w80)}
+  .mobile-menu-panel a:hover,.mobile-menu-panel a:focus-visible{color:var(--w);background:var(--og)}
+  .mobile-menu-panel .mobile-contact{background:var(--o1);color:#fff;font-weight:700}
+  .srv-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:800px){
+  html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+  #cur,#cur2{display:none}
+  nav,nav.stuck{padding:12px 20px;gap:10px;background:rgba(0,0,0,.92);border-bottom:1px solid var(--w05)}
+  .nlogo .brand-logo{width:132px}
+  .ninstagram{width:44px;height:44px;min-width:44px;justify-content:center;padding:0}
+  .ninstagram span,.mobile-menu-label{display:none}
+  .mobile-menu summary{width:44px;padding:10px}
+  .mobile-menu-panel{left:20px;right:20px;max-height:calc(100svh - 100px)}
+  .sec{scroll-margin-top:82px}
+  .sec-in{padding:60px 20px}
+  #clients{scroll-margin-top:82px}
+  #clients .sec-in{padding:60px 20px}
+  .stag{gap:8px;max-width:100%;margin-bottom:16px}
+  .stag-line{width:24px;flex-shrink:0}
+  .stag span{font-size:10px;letter-spacing:2px;line-height:1.6}
+  .sh{font-size:clamp(28px,7.8vw,42px);line-height:1.16;letter-spacing:.4px;margin-bottom:16px}
+  .ssub{font-size:14px;line-height:1.75}
+  #hero{display:block;min-height:100vh;min-height:100svh;padding:112px 20px 36px}
+  .hero-inner{padding:0;max-width:none}
+  .h-title-wrap{display:block;max-width:100%}
+  .h-eyebrow{display:flex;width:fit-content;max-width:100%;gap:9px;padding:9px 12px;border-radius:14px;margin-bottom:26px}
+  .h-dot{flex-shrink:0}
+  .h-eyebrow span{font-size:9px;letter-spacing:1.35px;line-height:1.65}
+  .h-title{line-height:1.04;letter-spacing:1px;margin-bottom:24px}
+  .h-t1,.h-t2{font-size:clamp(44px,13.5vw,80px)}
+  .h-t2{filter:drop-shadow(0 0 22px rgba(255,100,0,.35))}
+  .h-t3{font-size:13px;letter-spacing:3px;line-height:1.5;margin-top:14px}
+  .h-desc{font-size:15px;line-height:1.75;margin-bottom:28px;max-width:520px}
+  .h-btns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .h-btns .btn1,.h-btns .btn2{justify-content:center;min-height:48px;padding:14px 10px;font-size:12px;letter-spacing:0;line-height:1.4;text-align:center;gap:8px}
+  .h-btns svg{flex-shrink:0}
+  .h-stats{position:static;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;width:100%;margin-top:34px;padding-top:24px;border-top:1px solid var(--w10)}
+  .h-stat{text-align:left;min-width:0}
+  .h-stat-n{font-size:34px;letter-spacing:-1px;line-height:1.1}
+  .h-stat-l{font-size:9px;letter-spacing:1px;line-height:1.6;margin-top:5px}
+  .h-scroll{display:none}
+  .h-orb1{width:360px;height:360px;right:-140px;top:-80px}
+  .h-orb2{width:280px;height:280px;left:-80px;bottom:0}
+  .h-orb3{width:180px;height:180px}
+  .h-eyebrow,.h-t1,.h-t2,.h-t3,.h-desc,.h-btns,.h-stats{opacity:1;animation:none;transform:none}
+  .mq{padding:15px 0}
+  .mq-track span{font-size:11px;letter-spacing:1.5px;padding:0 20px}
+  .ab-grid,.cnt-grid{grid-template-columns:minmax(0,1fr);gap:32px;margin-top:32px}
+  .ab-grid>*,.cnt-grid>*,.srv-grid>*,.eq-grid>*,.proj-grid>*{min-width:0}
+  .ab-text p{font-size:14px;line-height:1.8}
+  .ab-vals{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:28px}
+  .av{padding:18px 16px}
+  .av-t{font-size:12px;line-height:1.45;letter-spacing:0;text-transform:none;overflow-wrap:break-word}
+  .av-d{font-size:12px;line-height:1.65;color:var(--w50)}
+  .ab-ph{aspect-ratio:4/3;border-radius:18px}
+  .ph-txt{font-size:10px;letter-spacing:1.2px;line-height:1.6;text-align:center;padding:0 16px}
+  .ab-badge{width:88px;height:88px;right:12px;bottom:12px}
+  .ab-bn{font-size:32px}
+  .ab-bl{font-size:8px;letter-spacing:1px;line-height:1.4}
+  .srv-grid{grid-template-columns:minmax(0,1fr);gap:12px;margin-top:30px;background:transparent;border:0;border-radius:0;overflow:visible}
+  .sc{padding:24px;border:1px solid var(--w10);border-radius:16px}
+  .sc-n{font-size:48px;right:22px;top:22px;color:var(--w05)}
+  .sc-ico{width:44px;height:44px;margin-bottom:18px;border-radius:12px}
+  .sc-ico svg{width:23px;height:23px}
+  .sc-name{font-size:20px;line-height:1.35;letter-spacing:-.25px;margin-bottom:12px}
+  .sc-desc{font-size:14px;line-height:1.75}
+  .sc-list{margin-top:16px;gap:8px}
+  .sc-list li{font-size:12px;line-height:1.65;color:var(--w50)}
+  .eq-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;margin-top:28px}
+  .eqt{min-width:0;min-height:44px;padding:10px 7px;font-size:11px;letter-spacing:.3px;line-height:1.35}
+  .eq-panels{margin-top:24px}
+  .eq-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .eqc-img{height:170px}
+  .eqc-body{padding:18px}
+  .eqc-cat{line-height:1.5;letter-spacing:1.5px}
+  .eqc-name{font-size:17px;line-height:1.4}
+  .eqc-spec{font-size:13px;line-height:1.7;color:var(--w50)}
+  .eqc-avail{line-height:1.5;letter-spacing:1px}
+  .proc-steps{grid-template-columns:minmax(0,1fr);gap:0;margin-top:32px}
+  .ps{display:grid;grid-template-columns:48px minmax(0,1fr);column-gap:16px;align-items:start;text-align:left;padding:0 0 28px}
+  .ps:not(:last-child)::after{content:"";position:absolute;left:23px;top:55px;bottom:7px;width:1px;background:var(--ob)}
+  .ps:last-child{padding-bottom:0}
+  .ps-ring{grid-column:1;grid-row:1/3;width:48px;height:48px;margin:0}
+  .ps-num{font-size:19px}
+  .ps-title{grid-column:2;font-size:14px;line-height:1.5;margin:0 0 6px}
+  .ps-desc{grid-column:2;font-size:13px;line-height:1.7;color:var(--w50)}
+  .proj-hd{gap:16px;margin-bottom:26px}
+  .proj-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto;gap:12px}
+  .pi{height:220px}
+  .pi-ov{padding:18px}
+  .pi-cat{font-size:9px;letter-spacing:1.5px;line-height:1.5}
+  .pi-name{font-size:15px;line-height:1.4}
+  .pi-source{font-size:11px;line-height:1.5}
+  .proj-more{display:flex;justify-content:center;min-height:48px;padding:14px 18px;font-size:12px;line-height:1.5;text-align:center}
+  .clients-heading{gap:12px}
+  .clients-lead{font-size:14px;line-height:1.75;margin:20px 0 26px}
+  .client-name{font-size:11px;line-height:1.5}
+  .clients-name-panel h3{font-size:20px;line-height:1.4}
+  .clients-name-list strong{font-size:13px;line-height:1.65}
+  .clients-name-list a{min-width:0}
+  .clients-company-names>span,.clients-company-list strong{line-height:1.6}
+  .cnt-tl{font-size:clamp(28px,8vw,42px);line-height:1.15;letter-spacing:-1px}
+  .cnt-desc{margin-bottom:26px}
+  .cd{padding:15px 16px;gap:12px;min-height:64px}
+  .cd>div{min-width:0}
+  .cd-lbl{font-size:9px;letter-spacing:1.3px;line-height:1.5;margin-bottom:4px}
+  .cd-val{font-size:14px;line-height:1.5;overflow-wrap:anywhere}
+  .fr{grid-template-columns:minmax(0,1fr);gap:0}
+  .fg{min-width:0;margin-bottom:18px}
+  .fg label{font-size:10px;letter-spacing:1.4px;line-height:1.5;color:var(--w50)}
+  .fg input,.fg select,.fg textarea{min-width:0;max-width:100%;min-height:50px;padding:14px 16px;font-size:16px;line-height:1.5;border-color:var(--w10)}
+  .fg textarea{min-height:130px}
+  .fsub{min-height:52px;line-height:1.5;letter-spacing:.5px}
+  footer{padding:40px 20px 28px}
+  .ft-in{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 20px;margin-bottom:30px}
+  .ft-in>div{min-width:0}
+  .ft-in>div:first-child,.ft-in>div:last-child{grid-column:1/-1}
+  .ft-desc{max-width:100%;font-size:13px;line-height:1.75;color:var(--w50)}
+  .ft-soc{gap:12px}
+  .fsb{width:44px;height:44px}
+  .ftcol-t{font-size:10px;letter-spacing:1.5px;line-height:1.5}
+  .ftl{gap:10px}
+  .ftl li{font-size:13px;line-height:1.5}
+  .ftl a{display:inline-block;padding:3px 0;font-size:13px;line-height:1.6;color:var(--w50);overflow-wrap:anywhere}
+  .ft-btm{padding:22px 0 0;gap:10px}
+  .ft-copy{font-size:11px;line-height:1.7}
+  .rv{opacity:1;transform:none;transition:none}
+}
+@media(max-width:600px){
+  .eq-grid,.proj-grid{grid-template-columns:minmax(0,1fr)}
+  .pi{height:auto;aspect-ratio:16/10;min-height:200px}
+  .clients-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .client-card{padding:10px;gap:10px}
+  .client-logo-frame{height:64px}
+  .client-logo-frame img{max-height:46px}
+}
+@media(max-width:359px){
+  .h-btns{grid-template-columns:minmax(0,1fr)}
+  .h-stat-n{font-size:30px}
+  .h-stat-l{font-size:8px;letter-spacing:.6px}
+  .sc{padding:22px 20px}
+  .sc-name{font-size:19px}
+  .av{padding:16px 12px}
+  .av-t{font-size:11px}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .rv,.h-eyebrow,.h-t1,.h-t2,.h-t3,.h-desc,.h-btns,.h-stats{opacity:1;transform:none}
+}
+
 </style>
 </head>
 <body>
@@ -440,6 +604,19 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
     <li><a href="#contact" class="ncta">Связаться</a></li>
   </ul>
   <a href="https://www.instagram.com/art_media_show/" target="_blank" rel="noopener noreferrer" class="ninstagram" aria-label="Instagram Art Media Show (откроется в новой вкладке)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg><span>Instagram</span></a>
+  <details class="mobile-menu" id="mobile-menu">
+    <summary aria-label="Меню сайта"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg><span class="mobile-menu-label">Меню</span></summary>
+    <div class="mobile-menu-panel" role="navigation" aria-label="Мобильное меню">
+      <a href="#about">О компании</a>
+      <a href="#services">Услуги</a>
+      <a href="#equipment">Оборудование</a>
+      <a href="#process">Как мы работаем</a>
+      <a href="#projects">Проекты</a>
+      <a href="#clients">Клиенты</a>
+      <a href="#contact" class="mobile-contact">Обсудить проект</a>
+    </div>
+  </details>
+
 </nav>
 
 <!-- HERO -->
@@ -469,7 +646,7 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
       <div class="h-dot"></div>
       <span>Профессиональное техническое обеспечение</span>
     </div>
-    <div class="h-title-wrap" style="position:relative;display:inline-block">
+    <div class="h-title-wrap" style="position:relative">
       <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:700px;height:300px;background:radial-gradient(ellipse,rgba(255,85,0,.18) 0%,transparent 70%);pointer-events:none;filter:blur(20px);z-index:0"></div>
     <h1 class="h-title" style="position:relative;z-index:1">
       <span class="h-t1">ДЕЛАЕМ</span>
@@ -562,7 +739,7 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
     <div class="stag rv"><div class="stag-line"></div><span>Наши услуги</span></div>
     <h2 class="sh rv d1">ЧТО МЫ <em>ДЕЛАЕМ</em></h2>
     <p class="ssub rv d2">Полный спектр технического обеспечения. Вы занимаетесь событием — мы обеспечиваем всё остальное.</p>
-    <div class="srv-grid" style="grid-template-columns:repeat(4,1fr)">
+    <div class="srv-grid">
       <div class="sc rv"><div class="sc-glow"></div><div class="sc-n">01</div><div class="sc-ico"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ff5500"/><stop offset="100%" stop-color="#ffaa33"/></linearGradient></defs><path d="M11 5L6 9H3a1 1 0 00-1 1v4a1 1 0 001 1h3l5 4V5z" stroke="url(#g1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M15.54 8.46a5 5 0 010 7.07" stroke="url(#g1)" stroke-width="1.5" stroke-linecap="round"/><path d="M19.07 4.93a10 10 0 010 14.14" stroke="url(#g1)" stroke-width="1.5" stroke-linecap="round" opacity=".5"/></svg></div><div class="sc-name">Звуковое оборудование</div><div class="sc-desc">Профессиональный звук — это не просто громко. Каждое слово слышно в любой точке зала, а музыка ощущается физически.</div><ul class="sc-list"><li>Аренда и монтаж акустических систем</li><li>Микрофоны, мониторы, микшеры</li><li>Звукорежиссёр на мероприятие</li></ul></div>
       <div class="sc rv d1"><div class="sc-glow"></div><div class="sc-n">02</div><div class="sc-ico"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ff5500"/><stop offset="100%" stop-color="#ffaa33"/></linearGradient></defs><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" stroke="url(#g2)" stroke-width="1.5" stroke-linecap="round" opacity=".5"/><circle cx="12" cy="12" r="4" stroke="url(#g2)" stroke-width="1.5"/><path d="M9 17h6M10 20h4" stroke="url(#g2)" stroke-width="1.5" stroke-linecap="round"/></svg></div><div class="sc-name">Световое оборудование</div><div class="sc-desc">Свет задаёт настроение раньше, чем прозвучит первое слово. Создаём световые сцены от строгой подсветки до феерии шоу.</div><ul class="sc-list"><li>Лазерное шоу и beam-приборы</li><li>Прожекторы, заливочный свет</li><li>Программирование световых сцен</li></ul></div>
       <div class="sc rv d2"><div class="sc-glow"></div><div class="sc-n">03</div><div class="sc-ico"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ff5500"/><stop offset="100%" stop-color="#ffaa33"/></linearGradient></defs><rect x="2" y="4" width="20" height="14" rx="2" stroke="url(#g3)" stroke-width="1.5"/><path d="M8 20h8M12 18v2" stroke="url(#g3)" stroke-width="1.5" stroke-linecap="round"/><path d="M6 8l3 3-3 3M11 14h6" stroke="url(#g3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="sc-name">LED-экраны и видео</div><div class="sc-desc">Крупный LED-экран — вау-эффект для любого события. Трансляция, презентация, видеоарт — яркая картинка без пикселей.</div><ul class="sc-list"><li>LED-панели любых форматов</li><li>Настройка видеопроцессора</li><li>Синхронизация со сценарием</li></ul></div>
@@ -849,6 +1026,15 @@ document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY});
 const nav=document.getElementById('nav');
 window.addEventListener('scroll',()=>nav.classList.toggle('stuck',scrollY>60));
 
+// Mobile navigation
+const mobileMenu=document.getElementById('mobile-menu');
+mobileMenu.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{mobileMenu.open=false}));
+document.addEventListener('click',event=>{if(!mobileMenu.contains(event.target))mobileMenu.open=false});
+document.addEventListener('keydown',event=>{
+  if(event.key==='Escape'&&mobileMenu.open){mobileMenu.open=false;mobileMenu.querySelector('summary').focus()}
+});
+window.addEventListener('resize',()=>{if(window.innerWidth>1100)mobileMenu.open=false});
+
 // Scroll reveal
 const rvEls=document.querySelectorAll('.rv');
 const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');io.unobserve(e.target)}})},{threshold:.1});
@@ -977,5 +1163,3 @@ contactForm.addEventListener('submit',async event=>{
 </script>
 </body>
 </html>
-
-
