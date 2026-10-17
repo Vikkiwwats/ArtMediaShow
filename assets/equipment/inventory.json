@@ -1,0 +1,722 @@
+[
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Пассивная акустика",
+    "name": "Electro-Voice TX1152",
+    "quantity": "8 шт.",
+    "note": "Мониторы"
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Пассивная акустика",
+    "name": "Electro-Voice XLC127",
+    "quantity": "12 шт.",
+    "note": "Линейный массив · по 6 на сторону · китайская копия"
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Пассивная акустика",
+    "name": "Martin Audio F12+",
+    "quantity": "6 шт.",
+    "note": null
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Пассивная акустика",
+    "name": "Martin Audio F15+",
+    "quantity": "2 шт.",
+    "note": null
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Пассивная акустика",
+    "name": "Martin Audio F15+",
+    "quantity": "4 шт.",
+    "note": "Копия"
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Пассивная акустика",
+    "name": "Martin Audio S18",
+    "quantity": "6 шт.",
+    "note": null
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Пассивная акустика",
+    "name": "Martin Audio S218",
+    "quantity": "2 шт.",
+    "note": null
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Пассивная акустика",
+    "name": "Martin Audio W8lM",
+    "quantity": "8 шт.",
+    "note": "Линейный массив · CUSTOM"
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Пассивная акустика",
+    "name": "Martin Audio WSX",
+    "quantity": "12 шт.",
+    "note": "Копия"
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Пассивная акустика",
+    "name": "Outline Mantas 28",
+    "quantity": "18 шт.",
+    "note": "Линейный массив · по 9 на сторону"
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Активная акустика",
+    "name": "RCF 315 V1",
+    "quantity": "2 шт.",
+    "note": null
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Активная акустика",
+    "name": "RCF 315 V2",
+    "quantity": "2 шт.",
+    "note": null
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Активная акустика",
+    "name": "JBL PRX815",
+    "quantity": "4 шт.",
+    "note": null
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Активная акустика",
+    "name": "Mackie SRM450 v1",
+    "quantity": "4 шт.",
+    "note": null
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Активная акустика",
+    "name": "Mackie SRM450 v2",
+    "quantity": "2 шт.",
+    "note": null
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Активная акустика",
+    "name": "Audiocenter GT515A",
+    "quantity": "4 шт.",
+    "note": null
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Активная акустика",
+    "name": "TDA ANGEL 18",
+    "quantity": "4 шт.",
+    "note": "Копия"
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Активная акустика",
+    "name": "Audiocenter S5118A",
+    "quantity": "4 шт.",
+    "note": null
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Активная акустика",
+    "name": "Mackie SRM1801",
+    "quantity": "2 шт.",
+    "note": null
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Активная акустика",
+    "name": "Behringer B 118",
+    "quantity": "4 шт.",
+    "note": null
+  },
+  {
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Активная акустика",
+    "name": "Outline Subtech 218",
+    "quantity": "4 шт.",
+    "note": null
+  },
+  {
+    "category": "light",
+    "category_name": "Свет",
+    "group": "Световые приборы",
+    "name": "BSW 380",
+    "quantity": "14 шт.",
+    "note": null
+  },
+  {
+    "category": "light",
+    "category_name": "Свет",
+    "group": "Световые приборы",
+    "name": "B-Eye 1940 K15",
+    "quantity": "12 шт.",
+    "note": null
+  },
+  {
+    "category": "light",
+    "category_name": "Свет",
+    "group": "Световые приборы",
+    "name": "B-Eye 740",
+    "quantity": "16 шт.",
+    "note": null
+  },
+  {
+    "category": "light",
+    "category_name": "Свет",
+    "group": "Световые приборы",
+    "name": "B-Eye 1930",
+    "quantity": "8 шт.",
+    "note": null
+  },
+  {
+    "category": "light",
+    "category_name": "Свет",
+    "group": "Световые приборы",
+    "name": "Beam 231",
+    "quantity": "18 шт.",
+    "note": null
+  },
+  {
+    "category": "light",
+    "category_name": "Свет",
+    "group": "Световые приборы",
+    "name": "Wash",
+    "quantity": "18 шт.",
+    "note": null
+  },
+  {
+    "category": "light",
+    "category_name": "Свет",
+    "group": "Световые приборы",
+    "name": "LED Strobe",
+    "quantity": "16 шт.",
+    "note": null
+  },
+  {
+    "category": "light",
+    "category_name": "Свет",
+    "group": "Световые приборы",
+    "name": "Atomic 3000 strobe",
+    "quantity": "4 шт.",
+    "note": null
+  },
+  {
+    "category": "light",
+    "category_name": "Свет",
+    "group": "Световые приборы",
+    "name": "LED Blinder",
+    "quantity": "4 шт.",
+    "note": null
+  },
+  {
+    "category": "light",
+    "category_name": "Свет",
+    "group": "Световые приборы",
+    "name": "LaserBar RBW",
+    "quantity": "6 шт.",
+    "note": null
+  },
+  {
+    "category": "light",
+    "category_name": "Свет",
+    "group": "Световые приборы",
+    "name": "UV Bar",
+    "quantity": "8 шт.",
+    "note": null
+  },
+  {
+    "category": "light",
+    "category_name": "Свет",
+    "group": "Световые приборы",
+    "name": "Laser 5 W",
+    "quantity": "1 шт.",
+    "note": null
+  },
+  {
+    "category": "light",
+    "category_name": "Свет",
+    "group": "Световые приборы",
+    "name": "LED Bar 24×8",
+    "quantity": "12 шт.",
+    "note": null
+  },
+  {
+    "category": "video",
+    "category_name": "LED / Видео",
+    "group": "Светодиодные экраны",
+    "name": "Outdoor P3.91",
+    "quantity": "60 м²",
+    "note": "Для уличных мероприятий · шаг пикселя 3,91 мм"
+  },
+  {
+    "category": "video",
+    "category_name": "LED / Видео",
+    "group": "Светодиодные экраны",
+    "name": "Indoor P3.07 · v1",
+    "quantity": "30 м²",
+    "note": "Для помещений · шаг пикселя 3,07 мм"
+  },
+  {
+    "category": "video",
+    "category_name": "LED / Видео",
+    "group": "Светодиодные экраны",
+    "name": "Indoor P3.07 · v2",
+    "quantity": "15 м²",
+    "note": "Для помещений · шаг пикселя 3,07 мм"
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Ударные",
+    "name": "TAMA Superstar Maple",
+    "quantity": null,
+    "note": "Разные размеры · можно собрать 2–3 установки одновременно"
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Ударные",
+    "name": "Roland TD-11KV",
+    "quantity": null,
+    "note": "Электронная ударная установка"
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Басовое оборудование",
+    "name": "Ampeg SVT-7PRO",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Басовое оборудование",
+    "name": "Ampeg SVT-4PRO",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Басовое оборудование",
+    "name": "Classic 410",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Басовое оборудование",
+    "name": "PL Neo 410",
+    "quantity": "2 шт.",
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Басовое оборудование",
+    "name": "TC RH450 + 212 cab",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Басовое оборудование",
+    "name": "Ampeg PL350",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Гитарное оборудование",
+    "name": "Fender Acoustasonic 150",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Гитарное оборудование",
+    "name": "Fender TWIN",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Гитарное оборудование",
+    "name": "VOX AC30",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Гитарное оборудование",
+    "name": "Marshall DSL401",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Гитарное оборудование",
+    "name": "Marshall JCM2000 DSL",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Гитарное оборудование",
+    "name": "Marshall JCM900 DSL",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Гитарное оборудование",
+    "name": "412A",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Гитарное оборудование",
+    "name": "412B",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Гитарное оборудование",
+    "name": "Orange Rockerverb 100",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Гитарное оборудование",
+    "name": "Orange Crush 12",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Гитарное оборудование",
+    "name": "Randall KH-120 + 412 Custom Cab",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "backline",
+    "category_name": "Бэклайн",
+    "group": "Клавишное оборудование",
+    "name": "Roland KX15",
+    "quantity": null,
+    "note": "Клавишный комбик"
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Радиосистемы",
+    "name": "Shure SLX-D BETA 58",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Радиосистемы",
+    "name": "Shure QLX-D BETA 58",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Радиосистемы",
+    "name": "Shure PGX",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Проводные микрофоны",
+    "name": "Shure BETA 58",
+    "quantity": "5 шт.",
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Проводные микрофоны",
+    "name": "Shure BETA 52",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Проводные микрофоны",
+    "name": "Shure BETA 56",
+    "quantity": "4 шт.",
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Проводные микрофоны",
+    "name": "Shure BETA 91",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Проводные микрофоны",
+    "name": "Shure SM58",
+    "quantity": "10 шт.",
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Проводные микрофоны",
+    "name": "Shure SM57",
+    "quantity": "7 шт.",
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Проводные микрофоны",
+    "name": "Shure SM81",
+    "quantity": "3 шт.",
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Проводные микрофоны",
+    "name": "Sennheiser 604",
+    "quantity": "5 шт.",
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Проводные микрофоны",
+    "name": "Sennheiser 606",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Проводные микрофоны",
+    "name": "Sennheiser 906",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Проводные микрофоны",
+    "name": "Sennheiser 645",
+    "quantity": "2 шт.",
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Проводные микрофоны",
+    "name": "Beyerdynamic V70",
+    "quantity": "3 шт.",
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Проводные микрофоны",
+    "name": "AKG 112",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Проводные микрофоны",
+    "name": "AKG D40",
+    "quantity": "5 шт.",
+    "note": null
+  },
+  {
+    "category": "microphones",
+    "category_name": "Микрофоны",
+    "group": "Проводные микрофоны",
+    "name": "AKG C1000",
+    "quantity": "2 шт.",
+    "note": null
+  },
+  {
+    "category": "stage",
+    "category_name": "Сцена",
+    "group": "Конструкции и монтаж",
+    "name": "Тотемы",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "stage",
+    "category_name": "Сцена",
+    "group": "Конструкции и монтаж",
+    "name": "Фермы",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "stage",
+    "category_name": "Сцена",
+    "group": "Конструкции и монтаж",
+    "name": "Электрическая лебёдка CoReat 1 т",
+    "quantity": "8 шт.",
+    "note": null
+  },
+  {
+    "category": "stage",
+    "category_name": "Сцена",
+    "group": "Конструкции и монтаж",
+    "name": "Сценический станок",
+    "quantity": "52 шт.",
+    "note": null
+  },
+  {
+    "category": "stage",
+    "category_name": "Сцена",
+    "group": "Элеваторы",
+    "name": "7×5 · «Односкатный»",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "stage",
+    "category_name": "Сцена",
+    "group": "Элеваторы",
+    "name": "9×7 · «Односкатный»",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "stage",
+    "category_name": "Сцена",
+    "group": "Элеваторы",
+    "name": "9×7 · «Арка»",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "stage",
+    "category_name": "Сцена",
+    "group": "Элеваторы",
+    "name": "11×9 · «Конёк»",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "stage",
+    "category_name": "Сцена",
+    "group": "Элеваторы",
+    "name": "11×9 · «Конёк» с порталами",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "stage",
+    "category_name": "Сцена",
+    "group": "Кабельные трассы",
+    "name": "Кабель-канал «Капа»",
+    "quantity": "100 шт.",
+    "note": null
+  },
+  {
+    "category": "effects",
+    "category_name": "Эффекты",
+    "group": "Дым и атмосфера",
+    "name": "Вертикальные дым-машины",
+    "quantity": "4 шт.",
+    "note": null
+  },
+  {
+    "category": "effects",
+    "category_name": "Эффекты",
+    "group": "Дым и атмосфера",
+    "name": "Обычные дым-машины",
+    "quantity": "2 шт.",
+    "note": null
+  },
+  {
+    "category": "effects",
+    "category_name": "Эффекты",
+    "group": "Дым и атмосфера",
+    "name": "Масляные хейзеры",
+    "quantity": "3 шт.",
+    "note": null
+  },
+  {
+    "category": "effects",
+    "category_name": "Эффекты",
+    "group": "Зеркальные эффекты",
+    "name": "Зеркальная полусфера 60 см",
+    "quantity": null,
+    "note": null
+  },
+  {
+    "category": "effects",
+    "category_name": "Эффекты",
+    "group": "Зеркальные эффекты",
+    "name": "Зеркальные шары 30 см",
+    "quantity": "3 шт.",
+    "note": null
+  }
+]
