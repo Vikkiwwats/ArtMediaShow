@@ -1,0 +1,16 @@
+# Art Media Show — иллюстрация блока «О компании»
+
+Generated with built-in ImageGen on 2026-10-17. This is an illustrative stage scene, not a photograph of a real company team or event. Equipment is depicted illustratively; brands, quantities and rigging are not a technical specification. Reference images: the supplied AMS logo, EV XLC127 image and Martin WSX image. Converted to WebP with Sharp (quality 89).
+
+## Generation prompt
+
++Use case: photorealistic-natural.
+Asset type: premium staged brand visualization for the About section of an event production company website.
+Primary request: Create a very realistic photograph of an impressive concert venue prepared for a show, with exactly FOUR adult male stage technicians standing together in the centre foreground, all viewed strictly from behind. Black short-sleeve T-shirts, black work trousers, relaxed professional stances, natural variation in height and hair. No faces looking at camera.
+Input image 1: supporting brand reference ONLY. Reproduce the supplied white AMS logo design (italic AMS letters, left equalizer bars and swoosh underline with tiny ART MEDIA SHOW) as a realistic white screen print centred on the upper back of EACH of the four black shirts. Do not copy the orange poster background or Russian slogan onto shirts.
+Input image 2: supporting equipment reference for the geometry of the black EV XLC127-type line-array modules.
+Input image 3: supporting equipment reference for the black Martin Audio WSX-type subwoofer cabinet styling.
+Scene: a large covered festival stage with substantial black/silver truss roof and side portals, two professionally rigged black line arrays of six compact modules each, stacked large black subwoofers, a very large modular LED screen with restrained abstract amber-white graphics, powerful BSW 380-style spot moving heads and B-Eye-type wash fixtures on trusses and the stage floor. Show premium large-scale technical production, plausible scale, rigging and wiring. No Outline Mantas or Outline branding. No invented readable hardware brand names, no company logos except AMS on shirts.
+Composition: vertical 4:5 image suitable for a website About portrait panel. Eye-level 28–35mm documentary photography from behind the four men. Include stage roof and lighting, keep all four men grouped in the central 75% of the width. Their heads, shoulders and white back logos should sit around the middle-lower central area and stay visible in a centred 4:3 mobile crop; legs may be partly cropped. Men should not hide the main stage equipment. The image should feel like a real professionally photographed technical crew before an event, not a stock business pose.
+Lighting: dark blue-black evening ambience, dramatic warm amber and clean white stage beams through very light haze, realistic skin, cloth weave, metal and speaker grilles. Controlled highlights, premium cinematic but credible exposure. No flames, fireworks or dense fog.
+Constraints: exactly four adult men; accurate white AMS mark on all four shirts, no extra people in foreground, no floating equipment, no random text or watermarks, no captions, no decorative frame. This is a new illustrative staged scene, not an actual event record.

@@ -179,6 +179,12 @@ nav.stuck{background:rgba(0,0,0,.75);backdrop-filter:blur(32px);-webkit-backdrop
 .av-t{font-size:12px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;margin-bottom:6px}
 .av-d{font-size:12px;color:var(--w25);line-height:1.6;font-weight:300}
 .ab-vis{position:relative}
+/* Illustrative stage portrait: keep the four shirt logos visible on mobile. */
+.ab-stage{scroll-margin-top:100px}
+.ab-stage::before{display:none}
+.ab-stage img{display:block;width:100%;height:100%;min-height:0;object-fit:cover;object-position:50% 58%;position:absolute;inset:0}
+.ab-visual-label{position:absolute;left:16px;top:16px;padding:7px 10px;border:1px solid rgba(255,255,255,.16);border-radius:6px;background:rgba(8,10,15,.62);color:rgba(255,255,255,.8);font-size:10px;font-weight:500;letter-spacing:.8px;line-height:1.2;backdrop-filter:blur(8px)}
+
 .ab-ph{width:100%;aspect-ratio:4/5;background:var(--d2);border:1px solid var(--w05);border-radius:24px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;overflow:hidden;position:relative}
 .ab-ph::before{content:'';position:absolute;top:-40%;left:-40%;width:180%;height:180%;background:conic-gradient(from 0deg,transparent 340deg,rgba(255,85,0,.2) 360deg);animation:spin 10s linear infinite;pointer-events:none}
 @keyframes spin{to{transform:rotate(360deg)}}
@@ -909,9 +915,9 @@ html.work-dialog-open{overflow:hidden}
         </div>
       </div>
       <div class="ab-vis rv d3">
-        <div class="ab-ph">
-          <div class="ph-ico">📸</div>
-          <div class="ph-txt">Фото команды / площадки</div>
+        <div class="ab-ph ab-stage" id="about-visual">
+          <img src="assets/about/ams-stage-team-visual.webp" alt="Визуализация площадки Art Media Show: сцена со светом и LED-экраном, четыре техника в футболках с логотипом AMS" width="1122" height="1402" loading="lazy" decoding="async">
+          <span class="ab-visual-label">Визуализация</span>
         </div>
         <div class="ab-badge">
           <div class="ab-bn">15+</div>
@@ -1404,6 +1410,7 @@ contactForm.addEventListener('submit',async event=>{
 </script>
 </body>
 </html>
+
 
 
 
