@@ -16,6 +16,6 @@ The product images are manufacturer catalogue images, rather than photographs of
 
 `orange-stage.webp`: generated abstract orange/black background based on the user's supplied style reference. It contains no generated equipment and is layered behind the original product photographs.
 
-Category photographs in `assets/projects/` are the existing Art Media Show event photos, already sourced and published in the project gallery. Cards mark these as event photographs and do not identify an unspecified fixture manufacturer or imply that a particular stage configuration is pictured. See the project gallery source notes for the original Instagram posts.
+`lighting-visual.webp`, `stage-visual.webp`, `effects-visual.webp`: generated generic category illustrations, explicitly labelled “Визуализация” on their cards. They illustrate theatrical lighting, an LED-equipped modular stage, and mirror effects with haze. They do not claim an exact manufacturer, physical unit, stage configuration or real company event. The source inventory does not specify manufacturers for the moving-head lights, screens, effects or stage structures. Existing Instagram project photos are preserved in their gallery and are not enlarged for these equipment cards.
 
 The reference poster says BEAM 233; the supplied inventory says Beam 231. The catalogue uses Beam 231 and does not reuse the reference poster as a photo of that model.
