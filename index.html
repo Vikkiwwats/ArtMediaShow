@@ -440,7 +440,7 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
   .h-title{line-height:1.04;letter-spacing:1px;margin-bottom:24px}
   .h-t1,.h-t2{font-size:clamp(44px,13.5vw,80px)}
   .h-t2{filter:drop-shadow(0 0 22px rgba(255,100,0,.35))}
-  .h-t3{font-size:13px;letter-spacing:3px;line-height:1.5;margin-top:14px}
+  .h-t3{font-size:13px;letter-spacing:3px;line-height:1.5;margin-top:14px;color:var(--w50)}
   .h-desc{font-size:15px;line-height:1.75;margin-bottom:28px;max-width:520px}
   .h-btns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
   .h-btns .btn1,.h-btns .btn2{justify-content:center;min-height:48px;padding:14px 10px;font-size:12px;letter-spacing:0;line-height:1.4;text-align:center;gap:8px}
@@ -448,7 +448,7 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
   .h-stats{position:static;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;width:100%;margin-top:34px;padding-top:24px;border-top:1px solid var(--w10)}
   .h-stat{text-align:left;min-width:0}
   .h-stat-n{font-size:34px;letter-spacing:-1px;line-height:1.1}
-  .h-stat-l{font-size:9px;letter-spacing:1px;line-height:1.6;margin-top:5px}
+  .h-stat-l{font-size:10px;letter-spacing:.75px;line-height:1.6;margin-top:5px;color:var(--w50)}
   .h-scroll{display:none}
   .h-orb1{width:360px;height:360px;right:-140px;top:-80px}
   .h-orb2{width:280px;height:280px;left:-80px;bottom:0}
@@ -539,7 +539,7 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
 }
 @media(max-width:600px){
   .eq-grid,.proj-grid{grid-template-columns:minmax(0,1fr)}
-  .pi{height:auto;aspect-ratio:16/10;min-height:200px}
+  .pi{width:100%;height:clamp(200px,58vw,260px);aspect-ratio:auto;min-height:0}
   .clients-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
   .client-card{padding:10px;gap:10px}
   .client-logo-frame{height:64px}
@@ -548,7 +548,7 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
 @media(max-width:359px){
   .h-btns{grid-template-columns:minmax(0,1fr)}
   .h-stat-n{font-size:30px}
-  .h-stat-l{font-size:8px;letter-spacing:.6px}
+  .h-stat-l{font-size:9px;letter-spacing:.6px}
   .sc{padding:22px 20px}
   .sc-name{font-size:19px}
   .av{padding:16px 12px}
