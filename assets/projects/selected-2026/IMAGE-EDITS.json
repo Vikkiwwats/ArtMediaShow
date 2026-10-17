@@ -1,0 +1,88 @@
+{
+  "method": "built-in image_gen",
+  "jobs": [
+    {
+      "file": "IMG_2480(1).png",
+      "key": "supermodelka-2022",
+      "region": "Only the runway fashion photograph between screenshot y=645 and y=1590 (source screenshot 946x2048). Discard all text above it, including the unrelated railway-anniversary caption. Blue runway and screen portal with model portraits. Keep original scene content unchanged; remove only the Instagram 1/4 carousel badge at top right. Preserve all screen portrait tiles and physical screen structure. Output square 1:1."
+    },
+    {
+      "file": "IMG_2479.png",
+      "key": "kristall-anniversary",
+      "region": "Only the event photograph between screenshot y=525 and y=1705 (946x2048): woman presenter in green dress and man in black tuxedo, yellow and white stage beams. Remove the Instagram 2/4 carousel badge. Keep both faces, clothing, hands, microphone and all stage objects unchanged. Output portrait 4:5."
+    },
+    {
+      "file": "IMG_2477.png",
+      "key": "pride-cup-iii",
+      "region": "Only the actual landscape arena picture between screenshot y=866 and y=1610 (946x2048). Cut all black letterboxing and Instagram chrome. Preserve PRIDE CUP III screen and JUDO PRIDE CLUB lion graphics exactly as photographed, no retyping or invented lettering. Preserve six vertical LED strips, roof beams, mats, chairs and spatial arrangement. Output landscape approximately 4:3."
+    },
+    {
+      "file": "IMG_2474.png",
+      "key": "retro-disco",
+      "region": "Only the actual landscape concert video frame between screenshot y=662 and y=1193 (946x2048). Remove black letterboxing outside photograph and remove the white video subtitle along the lower dark edge; crop slightly above that subtitle if needed rather than inventing hidden detail. Preserve the small left-side stage, existing LED content, smoke, light beams and actual audience silhouettes. No adding stage components or more spectators. Keep this a faithful low-light documentary frame, landscape 16:9."
+    },
+    {
+      "file": "IMG_2472.png",
+      "key": "fashion-led-runway",
+      "region": "Use only the runway hall photograph/video frame from y=400 to y=1875 of the 946x2048 screenshot. Remove phone interface, overlaid user header, audio and volume UI. Preserve wide hall, central pink runway, one distant model, three large screens and audience positions. The text on the central screen is unclear: do not invent a new title or logo, retain its natural softness. Clean the uneven black edge bars without changing camera perspective. Output portrait 3:4."
+    },
+    {
+      "file": "IMG_2470.png",
+      "key": "rechitsa-live",
+      "region": "Use only the event photograph from y=809 to y=1444 of the 946x2048 screenshot: live band in white under many mirrored pink/red hanging spheres, audience dancing in foreground. Remove carousel 1/4 badge at upper right and small tagged-person icon at lower left. Keep every performer and original crowd, identities, red/magenta light and overhead spheres. Preserve screen content as seen, not relettered. Output landscape 3:2."
+    },
+    {
+      "file": "IMG_2469.png",
+      "key": "bulgakov-evening",
+      "region": "The screenshot contains a triptych. Select ONLY its middle photograph, approximately y=610 to y=1153 (946x2048): red velvet curtain and gold venue sign BULGAKOV under hanging mirrored spheres. Discard the top dining-room panel and bottom Santa-decoration panel entirely. Do not merge scenes or invent a full-room photograph. Preserve the exact visible sign letters, decorations and curtain geometry, only restore clarity and exposure. Output landscape approximately 16:9."
+    },
+    {
+      "file": "IMG_2467.png",
+      "key": "gorshenev-tour",
+      "region": "Select ONLY the actual landscape stage photograph/video frame between y=793 and y=1325 of the 946x2048 screenshot, not the white Russian tour caption above it. Preserve the concert stage, drum kit, microphones, the yellow, cyan, purple, green and red beams exactly where present; clean haze slightly but do not add beams or gear. Keep the dim real stage. Output landscape 16:9."
+    },
+    {
+      "file": "IMG_2466.png",
+      "key": "outdoor-festival",
+      "region": "Select ONLY the actual outdoor festival stage frame between y=739 and y=1273 (946x2048 screenshot). Discard the adjacent posts above and below. Preserve the covered stage, banners, screen, both speaker arrays and dancers in their exact original positions, foremost dancer in coral pink. Remove only small Instagram audio icon at lower right. Keep the original cloudy daylight, improve exposure modestly. Preserve logo on canopy without redrawing any lettering. Output landscape 16:9."
+    },
+    {
+      "file": "IMG_2463.png",
+      "key": "open-summer-crowd",
+      "region": "Select ONLY the portrait event photograph from y=338 to y=1600 (946x2048 screenshot), showing an overhead view of a dance circle with an amber spotlight and rigging top left. Remove the Instagram 1/3 carousel badge in upper right. Preserve people exactly, all poses, ceiling truss, light beams and camera tilt. Maintain amber/blue real stage lighting, no new lights or people. Output portrait 3:4."
+    },
+    {
+      "file": "IMG_2462.png",
+      "key": "open-summer-dj",
+      "region": "Select ONLY the actual DJ photograph/video frame, approximately y=320 to y=1690 of the 946x2048 screenshot, cropping away all top Instagram header and bottom audio icon. Preserve DJ man in blue T-shirt with headphones and one raised arm, partial second person at right, actual Pioneer DJ console and red botanical screen graphics. No new facial detail, identity change, more hands, or invented shirt logos; preserve softly resolved facial detail naturally. Modestly denoise and sharpen. Output portrait 3:4."
+    },
+    {
+      "file": "IMG_2460.png",
+      "key": "open-summer-hall",
+      "region": "The screenshot is a three-panel video collage. Select ONLY the MIDDLE landscape hall photograph, y=675 to y=1306 of the 946x2048 screenshot, with visible Plamag sign, balcony, left-side metal truss, purple/white lighting and crowd. Discard both top crowd panel and bottom DJ closeup completely; no collage. Keep the actual word Plamag, all balcony proportions, audience density and beam positions. Restrained clarity and exposure only. Output landscape 3:2."
+    },
+    {
+      "file": "IMG_2457.png",
+      "key": "megadisco-2026",
+      "region": "Use only the real portrait event image, approximately y=350 to y=1635 of the 946x2048 screenshot, showing yellow mirror-ball beams in an ornate hall, DJ lower right and audience foreground. Crop above the overlaid venue tag @tseh.gomel rather than rebuilding hidden content. Remove all Instagram header and lower audio icon. Preserve original DJ, crowd, architectural mouldings, mirror ball and existing beam geometry. Slightly recover shadows and reduce noise without fabricating detail. Output portrait 3:4."
+    },
+    {
+      "file": "IMG_2455.png",
+      "key": "megadisco-mirrorball",
+      "region": "Use only the central mirror-ball photograph from approximately y=350 to y=1700 of the 946x2048 screenshot. Cut away Instagram header above and venue-tag/audio-icon area below. The large mirrored disco sphere hangs above a distant DJ, saturated blue and purple stage light. Preserve sphere geometry and real reflections, hanging cable, partial architectural moulding and dim scene. Do not add stars, light beams or mirrors; do not change performer. Output portrait 3:4."
+    },
+    {
+      "file": "IMG_2453.png",
+      "key": "bobruisk-motofestival",
+      "region": "Use only the real concert photo/video frame, approximately y=345 to y=1700 of the 946x2048 screenshot, not Instagram interface. Singer with microphone, drum kit and actual 8 REGION backdrop, foreground spectator. Preserve the man's identity, facial shape, clothes and hand poses, microphone, original backdrop lettering 8 REGION and all drums. Do not invent a new logo or retouch the identity. Avoid rebuilding missing top/bottom content; crop neatly. Natural daylight, gentle clarity/noise reduction. Output portrait 3:4."
+    },
+    {
+      "file": "IMG_2451.png",
+      "key": "tantsploshchadka",
+      "region": "Use only the sideways concert scene from approximately y=365 to y=1750 of the 946x2048 screenshot. Rotate the actual scene 90 degrees COUNTERCLOCKWISE so the audience is along the bottom and roof lighting across the top. Discard every Instagram/phone overlay. Preserve the real crowd, stage, screen, turquoise/white beam positions, equipment and stage screen's sideways original lettering after rotation. Do not invent or retype screen letters. Restore natural contrast and noise only. Output the resulting upright LANDSCAPE concert photograph, approximately 16:9."
+    }
+  ],
+  "final_prompt_overrides": {
+    "rechitsa-live": "Use case: precise-object-edit. Edit target: the attached Instagram screenshot. Extract only the real landscape concert photograph at y=809..1444 in this 946x2048 screenshot. It shows a fully clothed live band wearing white outfits on a stage, a fully clothed audience, and large hanging decorative mirrored spheres in red and magenta light. Remove the Instagram carousel counter and tagged-person interface icon only. Keep all clothing, faces, bodies, instruments, decorations and stage exactly as in the real source. Do not generate different people or any new scene. Modest compression cleanup and gentle sharpening only; keep it documentary and natural. Output the existing photograph only, landscape 3:2, without social app interface."
+  }
+}
