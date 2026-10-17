@@ -1,0 +1,265 @@
+{
+  "method": "built-in imagegen; no CLI/API fallback",
+  "project_asset_directory": "assets/equipment/more/",
+  "generic_visualizations": [
+    {
+      "key": "moving-beam",
+      "final_asset": "assets/equipment/more/moving-beam.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic generic equipment category cutout for a professional event-production website. Subject: one generic unbranded black professional moving-head spotlight, single large round front lens, substantial U-shaped motorized yoke and rectangular base, three-quarter product view, NO emitted beam. Isolated on a genuinely transparent background, no surface, no backdrop, no pedestal. Full object completely within frame with generous breathing room around every edge. Crisp realistic black-metal/plastic or aluminum hardware as appropriate, neutral softbox lighting that reveals texture, restrained warm amber rim light, high product-photography quality. No text, logo, brand, model designation, watermark, people or extra equipment. This image is explicitly a generic category visualization, not an exact named manufacturer's model. Keep engineering geometry plausible."
+    },
+    {
+      "key": "moving-wash19",
+      "final_asset": "assets/equipment/more/moving-wash19.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic generic equipment category cutout for a professional event-production website. Subject: one generic unbranded black professional moving-head wash fixture, front round head containing exactly 19 circular LED lenses in a hexagonal honeycomb layout, dark housing with motorized yoke and base, three-quarter product view. Isolated on a genuinely transparent background, no surface, no backdrop, no pedestal. Full object completely within frame with generous breathing room around every edge. Crisp realistic black-metal/plastic or aluminum hardware as appropriate, neutral softbox lighting that reveals texture, restrained warm amber rim light, high product-photography quality. No text, logo, brand, model designation, watermark, people or extra equipment. This image is explicitly a generic category visualization, not an exact named manufacturer's model. Keep engineering geometry plausible."
+    },
+    {
+      "key": "moving-wash7",
+      "final_asset": "assets/equipment/more/moving-wash7.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic generic equipment category cutout for a professional event-production website. Subject: one generic unbranded black professional compact moving-head wash fixture, front round head containing seven circular LED lenses, one at the center and six surrounding it, dark housing with motorized yoke and base, three-quarter product view. Isolated on a genuinely transparent background, no surface, no backdrop, no pedestal. Full object completely within frame with generous breathing room around every edge. Crisp realistic black-metal/plastic or aluminum hardware as appropriate, neutral softbox lighting that reveals texture, restrained warm amber rim light, high product-photography quality. No text, logo, brand, model designation, watermark, people or extra equipment. This image is explicitly a generic category visualization, not an exact named manufacturer's model. Keep engineering geometry plausible."
+    },
+    {
+      "key": "led-strobe",
+      "final_asset": "assets/equipment/more/led-strobe.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic generic equipment category cutout for a professional event-production website. Subject: one generic unbranded professional rectangular LED strobe light, rectangular grid of tiny white LED cells with a brighter horizontal central strip, black metal enclosure and mounting bracket, three-quarter product view. Isolated on a genuinely transparent background, no surface, no backdrop, no pedestal. Full object completely within frame with generous breathing room around every edge. Crisp realistic black-metal/plastic or aluminum hardware as appropriate, neutral softbox lighting that reveals texture, restrained warm amber rim light, high product-photography quality. No text, logo, brand, model designation, watermark, people or extra equipment. This image is explicitly a generic category visualization, not an exact named manufacturer's model. Keep engineering geometry plausible."
+    },
+    {
+      "key": "led-blinder",
+      "final_asset": "assets/equipment/more/led-blinder.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic generic equipment category cutout for a professional event-production website. Subject: one generic unbranded professional stage LED blinder, four large warm-white circular lamps in a two-by-two square layout inside a black metal enclosure, black mounting yoke, three-quarter product view. Isolated on a genuinely transparent background, no surface, no backdrop, no pedestal. Full object completely within frame with generous breathing room around every edge. Crisp realistic black-metal/plastic or aluminum hardware as appropriate, neutral softbox lighting that reveals texture, restrained warm amber rim light, high product-photography quality. No text, logo, brand, model designation, watermark, people or extra equipment. This image is explicitly a generic category visualization, not an exact named manufacturer's model. Keep engineering geometry plausible."
+    },
+    {
+      "key": "laser-projector",
+      "final_asset": "assets/equipment/more/laser-projector.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic generic equipment category cutout for a professional event-production website. Subject: one generic unbranded professional stage laser projector, compact black metal rectangular box with one small front optical aperture, heavy-duty U mounting bracket and rear cooling vents, three-quarter product view, NO emitted laser beam. Isolated on a genuinely transparent background, no surface, no backdrop, no pedestal. Full object completely within frame with generous breathing room around every edge. Crisp realistic black-metal/plastic or aluminum hardware as appropriate, neutral softbox lighting that reveals texture, restrained warm amber rim light, high product-photography quality. No text, logo, brand, model designation, watermark, people or extra equipment. This image is explicitly a generic category visualization, not an exact named manufacturer's model. Keep engineering geometry plausible."
+    },
+    {
+      "key": "vertical-fog",
+      "final_asset": "assets/equipment/more/vertical-fog.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic generic equipment category cutout for a professional event-production website. Subject: one generic unbranded professional vertical fog machine, low black rectangular road-ready metal box with a large round top outlet ringed by small LED lenses, two side carrying handles, front grille and small control display, three-quarter product view, NO smoke plume. Isolated on a genuinely transparent background, no surface, no backdrop, no pedestal. Full object completely within frame with generous breathing room around every edge. Crisp realistic black-metal/plastic or aluminum hardware as appropriate, neutral softbox lighting that reveals texture, restrained warm amber rim light, high product-photography quality. No text, logo, brand, model designation, watermark, people or extra equipment. This image is explicitly a generic category visualization, not an exact named manufacturer's model. Keep engineering geometry plausible."
+    },
+    {
+      "key": "truss-section",
+      "final_asset": "assets/equipment/more/truss-section.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic generic equipment category cutout for a professional event-production website. Subject: one generic unbranded professional square aluminum stage truss section lying diagonally, four polished aluminum parallel main tubes connected by realistic zigzag braces, visible spigot connections, complete isolated section fully within frame, three-quarter product view. Isolated on a genuinely transparent background, no surface, no backdrop, no pedestal. Full object completely within frame with generous breathing room around every edge. Crisp realistic black-metal/plastic or aluminum hardware as appropriate, neutral softbox lighting that reveals texture, restrained warm amber rim light, high product-photography quality. No text, logo, brand, model designation, watermark, people or extra equipment. This image is explicitly a generic category visualization, not an exact named manufacturer's model. Keep engineering geometry plausible."
+    },
+    {
+      "key": "led-bar",
+      "final_asset": "assets/equipment/more/led-bar.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic generic equipment category cutout for a professional event-production website. Subject: one generic unbranded professional stage LED bar, a long slim black rectangular metal fixture containing a single straight row of many small circular LED lenses, small adjustable brackets at both ends, three-quarter product view. Isolated on a genuinely transparent background, no surface, no backdrop, no pedestal. Full object completely within frame with generous breathing room around every edge. Crisp realistic black-metal/plastic or aluminum hardware as appropriate, neutral softbox lighting that reveals texture, restrained warm amber rim light, high product-photography quality. No text, logo, brand, model designation, watermark, people or extra equipment. This image is explicitly a generic category visualization, not an exact named manufacturer's model. Keep engineering geometry plausible."
+    },
+    {
+      "key": "stage-single-slope",
+      "final_asset": "assets/equipment/more/stage-single-slope.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Photorealistic premium catalogue cutout. One realistic generic modular outdoor stage with a SINGLE-SLOPE MONO-PITCH roof, clear aluminum square truss legs and roof beams, no gable and no arch. Black stage deck, black roof fabric, three-quarter view, complete compact structure. Isolate on genuine transparent alpha background. No ground plane, backdrop, studio wall, pedestal or environmental scene. Full object completely in frame with generous breathing room on all sides. Realistic plausible hardware, clean neutral softbox lighting with a subtle warm amber rim highlight, crisp metal textures. No logos, watermarks, people, written labels, dimension text or manufacturer identifiers. This is an explicitly generic category visualization, not any specific branded product. No extra objects."
+    },
+    {
+      "key": "stage-arch",
+      "final_asset": "assets/equipment/more/stage-arch.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Photorealistic premium catalogue cutout. One realistic generic modular outdoor concert stage with a CURVED BARREL-ARCH roof canopy, aluminum truss arched roof ribs and four stage legs, black stage deck and black roof canopy, complete structure, three-quarter view. Isolate on genuine transparent alpha background. No ground plane, backdrop, studio wall, pedestal or environmental scene. Full object completely in frame with generous breathing room on all sides. Realistic plausible hardware, clean neutral softbox lighting with a subtle warm amber rim highlight, crisp metal textures. No logos, watermarks, people, written labels, dimension text or manufacturer identifiers. This is an explicitly generic category visualization, not any specific branded product. No extra objects."
+    },
+    {
+      "key": "stage-deck",
+      "final_asset": "assets/equipment/more/stage-deck.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Photorealistic premium catalogue cutout. One generic portable modular stage deck platform, rectangular black anti-slip plywood top in silver aluminum frame, four sturdy black telescopic legs, three-quarter view showing the entire platform and every leg. Isolate on genuine transparent alpha background. No ground plane, backdrop, studio wall, pedestal or environmental scene. Full object completely in frame with generous breathing room on all sides. Realistic plausible hardware, clean neutral softbox lighting with a subtle warm amber rim highlight, crisp metal textures. No logos, watermarks, people, written labels, dimension text or manufacturer identifiers. This is an explicitly generic category visualization, not any specific branded product. No extra objects."
+    },
+    {
+      "key": "truss-totem",
+      "final_asset": "assets/equipment/more/truss-totem.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Photorealistic premium catalogue cutout. One generic upright square aluminum truss totem, vertical tower about human height on a wide flat black steel floor base plate with four visible corners, complete tower from base to top in frame, three-quarter view, no equipment mounted on it. Isolate on genuine transparent alpha background. No ground plane, backdrop, studio wall, pedestal or environmental scene. Full object completely in frame with generous breathing room on all sides. Realistic plausible hardware, clean neutral softbox lighting with a subtle warm amber rim highlight, crisp metal textures. No logos, watermarks, people, written labels, dimension text or manufacturer identifiers. This is an explicitly generic category visualization, not any specific branded product. No extra objects."
+    },
+    {
+      "key": "horizontal-fog",
+      "final_asset": "assets/equipment/more/horizontal-fog.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Photorealistic premium catalogue cutout. One generic professional horizontal stage fog machine: compact black rectangular metal housing with nozzle in its FRONT face, U-shaped carrying bracket on top, handle and short power cord; no LED rings, no upright output nozzle, no emitted smoke. Isolate on genuine transparent alpha background. No ground plane, backdrop, studio wall, pedestal or environmental scene. Full object completely in frame with generous breathing room on all sides. Realistic plausible hardware, clean neutral softbox lighting with a subtle warm amber rim highlight, crisp metal textures. No logos, watermarks, people, written labels, dimension text or manufacturer identifiers. This is an explicitly generic category visualization, not any specific branded product. No extra objects."
+    },
+    {
+      "key": "oil-hazer",
+      "final_asset": "assets/equipment/more/oil-hazer.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Photorealistic premium catalogue cutout. One generic professional touring stage haze machine: compact black flight-case box with metal edge strips and recessed handles, large front air vent and a small fan outlet, small control display, no brand or text, complete isolated equipment, no emitted smoke. Isolate on genuine transparent alpha background. No ground plane, backdrop, studio wall, pedestal or environmental scene. Full object completely in frame with generous breathing room on all sides. Realistic plausible hardware, clean neutral softbox lighting with a subtle warm amber rim highlight, crisp metal textures. No logos, watermarks, people, written labels, dimension text or manufacturer identifiers. This is an explicitly generic category visualization, not any specific branded product. No extra objects."
+    },
+    {
+      "key": "led-cabinet",
+      "final_asset": "assets/equipment/more/led-cabinet.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Photorealistic premium catalogue cutout. One generic professional modular LED screen cabinet, three-quarter view revealing a vivid orange abstract illuminated front LED pixel surface and sturdy black rear/frame construction, small handles and interlocking edge latches, one panel only, no branding. Isolate on genuine transparent alpha background. No ground plane, backdrop, studio wall, pedestal or environmental scene. Full object completely in frame with generous breathing room on all sides. Realistic plausible hardware, clean neutral softbox lighting with a subtle warm amber rim highlight, crisp metal textures. No logos, watermarks, people, written labels, dimension text or manufacturer identifiers. This is an explicitly generic category visualization, not any specific branded product. No extra objects."
+    }
+  ],
+  "photo_background_extraction": [
+    {
+      "key": "martin-f12plus",
+      "final_asset": "assets/equipment/more/martin-f12plus.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of martin-f12plus. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "martin-f15plus",
+      "final_asset": "assets/equipment/more/martin-f15plus.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of martin-f15plus. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "martin-s18",
+      "final_asset": "assets/equipment/more/martin-s18.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of martin-s18. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "martin-s218",
+      "final_asset": "assets/equipment/more/martin-s218.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of martin-s218. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "martin-wsx",
+      "final_asset": "assets/equipment/more/martin-wsx.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of martin-wsx. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "fender-acoustasonic150",
+      "final_asset": "assets/equipment/more/fender-acoustasonic150.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of fender-acoustasonic150. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "ev-tx1152",
+      "final_asset": "assets/equipment/more/ev-tx1152.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of ev-tx1152. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "ev-xlc127",
+      "final_asset": "assets/equipment/more/ev-xlc127.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of ev-xlc127. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "ampeg-svt4pro",
+      "final_asset": "assets/equipment/more/ampeg-svt4pro.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of ampeg-svt4pro. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "ampeg-classic410",
+      "final_asset": "assets/equipment/more/ampeg-classic410.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of ampeg-classic410. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "beyer-v70",
+      "final_asset": "assets/equipment/more/beyer-v70.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of beyer-v70. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "akg-d40",
+      "final_asset": "assets/equipment/more/akg-d40.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of akg-d40. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "akg-d112",
+      "final_asset": "assets/equipment/more/akg-d112.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of akg-d112. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "sennheiser-e606",
+      "final_asset": "assets/equipment/more/sennheiser-e606.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of sennheiser-e606. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "mackie-srm1801",
+      "final_asset": "assets/equipment/more/mackie-srm1801.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of mackie-srm1801. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "mackie-srm450v1",
+      "final_asset": "assets/equipment/more/mackie-srm450v1.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of mackie-srm450v1. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "tc-rh450",
+      "final_asset": "assets/equipment/more/tc-rh450.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of tc-rh450. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "randall-kh120",
+      "final_asset": "assets/equipment/more/randall-kh120.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of randall-kh120. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "marshall-dsl401",
+      "final_asset": "assets/equipment/more/marshall-dsl401.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of marshall-dsl401. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "marshall-jcm2000",
+      "final_asset": "assets/equipment/more/marshall-jcm2000.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of marshall-jcm2000. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "shure-slxd",
+      "final_asset": "assets/equipment/more/shure-slxd.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of shure-slxd. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "shure-pgx",
+      "final_asset": "assets/equipment/more/shure-pgx.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of shure-pgx. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    },
+    {
+      "key": "shure-qlxd",
+      "final_asset": "assets/equipment/more/shure-qlxd.webp",
+      "tool": "built-in imagegen",
+      "mode": "background-extraction",
+      "prompt": "Use case: background-extraction. EDIT TARGET: the attached ORIGINAL catalogue photograph of shure-qlxd. Remove ONLY the background surrounding the actual product and make it genuinely transparent with a clean accurate alpha silhouette. Preserve the actual photographed equipment exactly: same camera angle, perspective, geometry, proportions, finish, grille pattern, real manufacturer logo, existing printed model lettering, knobs, handles, feet, antennas and every hardware detail. Do NOT redesign, redraw, invent, replace, recolor or upgrade the product. Keep original photographic texture. Remove any separate added title/logo/advertising text outside the physical equipment, but preserve every mark on the equipment itself. If a wireless system is shown, retain its actual receiver, handheld microphone and both antennas, remove loose accessories/bags/cables/stands not part of those units. For the stage speaker preserve the complete cabinet. Keep the full product fully in frame, no cropping, with a little transparent space around it. No new objects, no added text, no new lighting, no backdrop, no orange background; this cutout will be placed on a background in website code."
+    }
+  ]
+}
