@@ -78,6 +78,9 @@ nav.stuck{background:rgba(0,0,0,.75);backdrop-filter:blur(32px);-webkit-backdrop
 .ncta{background:var(--o1)!important;color:#fff!important;padding:10px 24px!important;border-radius:100px!important;font-size:12px!important;letter-spacing:.5px!important;transition:all .3s!important}
 .ncta:hover{background:var(--o4)!important;transform:scale(1.04)!important;box-shadow:0 0 32px rgba(255,85,0,.4)!important}
 .ncta::after{display:none!important}
+.ninstagram{display:inline-flex;align-items:center;gap:8px;flex-shrink:0;padding:10px 14px;border:1px solid var(--w10);border-radius:100px;font-size:12px;font-weight:600;color:var(--w80);white-space:nowrap;transition:color .3s,border-color .3s,background .3s}
+.ninstagram:hover{color:var(--o2);border-color:rgba(255,85,0,.4);background:var(--og)}
+.ninstagram:focus-visible{outline:2px solid var(--o2);outline-offset:4px}
 
 /* ══ HERO ══ */
 #hero{min-height:100vh;position:relative;display:flex;align-items:center;overflow:hidden;background:#000}
@@ -361,6 +364,7 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
 
 /* ══ RESPONSIVE ══ */
 @media(max-width:1100px){
+  .nlinks{display:none}
   .srv-grid{grid-template-columns:repeat(2,1fr)}
   .proc-steps{grid-template-columns:repeat(3,1fr);gap:32px}
   .proc-steps::after{display:none}
@@ -369,7 +373,6 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
 @media(max-width:800px){
   nav{padding:20px 28px}
   nav.stuck{padding:14px 28px}
-  .nlinks{display:none}
   .sec-in{padding:80px 28px}
   .hero-inner{padding:140px 28px 80px}
   .h-stats{position:static;flex-direction:row;flex-wrap:wrap;margin-top:40px;gap:20px}
@@ -426,6 +429,7 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
     <li><a href="#clients">Клиенты</a></li>
     <li><a href="#contact" class="ncta">Связаться</a></li>
   </ul>
+  <a href="https://www.instagram.com/art_media_show/" target="_blank" rel="noopener noreferrer" class="ninstagram" aria-label="Instagram Art Media Show (откроется в новой вкладке)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg><span>Instagram</span></a>
 </nav>
 
 <!-- HERO -->
@@ -682,6 +686,7 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
         <div class="cnt-dets">
           <a href="tel:+70000000000" class="cd"><div class="cd-ico">📞</div><div><div class="cd-lbl">Телефон</div><div class="cd-val">+7 (000) 000-00-00</div></div></a>
           <a href="mailto:info@amsh.ru" class="cd"><div class="cd-ico">✉️</div><div><div class="cd-lbl">Email</div><div class="cd-val">info@amsh.ru</div></div></a>
+          <a href="https://www.instagram.com/art_media_show/" target="_blank" rel="noopener noreferrer" class="cd" aria-label="Instagram @art_media_show (откроется в новой вкладке)"><div class="cd-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></div><div><div class="cd-lbl">Instagram</div><div class="cd-val">@art_media_show</div></div></a>
           <a href="#" class="cd"><div class="cd-ico">💬</div><div><div class="cd-lbl">WhatsApp / Telegram</div><div class="cd-val">+7 (000) 000-00-00</div></div></a>
           <div class="cd"><div class="cd-ico">📍</div><div><div class="cd-lbl">Город</div><div class="cd-val">Укажите ваш город</div></div></div>
         </div>
@@ -725,7 +730,7 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
       <div class="ft-soc">
         <a href="#" class="fsb">Vk</a>
         <a href="#" class="fsb">Tg</a>
-        <a href="#" class="fsb">In</a>
+        <a href="https://www.instagram.com/art_media_show/" target="_blank" rel="noopener noreferrer" class="fsb" aria-label="Instagram Art Media Show (откроется в новой вкладке)" title="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
         <a href="#" class="fsb">Yt</a>
       </div>
     </div>
@@ -758,6 +763,7 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
         <li><a href="mailto:info@amsh.ru">info@amsh.ru</a></li>
         <li><a href="#">WhatsApp</a></li>
         <li><a href="#">Telegram</a></li>
+        <li><a href="https://www.instagram.com/art_media_show/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
       </ul>
     </div>
   </div>
