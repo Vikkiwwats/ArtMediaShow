@@ -1,17 +1,5 @@
 [
   {
-    "id": "sound-0",
-    "category": "sound",
-    "category_name": "Звук",
-    "group": "Пассивная акустика",
-    "name": "Electro-Voice TX1152",
-    "quantity": "8 шт.",
-    "note": "Мониторы",
-    "asset": "ev-tx1152",
-    "image": "assets/equipment/more/ev-tx1152.webp",
-    "depiction": "photo"
-  },
-  {
     "id": "sound-1",
     "category": "sound",
     "category_name": "Звук",
@@ -22,6 +10,18 @@
     "asset": "ev-xlc127",
     "image": "assets/equipment/more/ev-xlc127.webp",
     "depiction": "original"
+  },
+  {
+    "id": "sound-0",
+    "category": "sound",
+    "category_name": "Звук",
+    "group": "Пассивная акустика",
+    "name": "Electro-Voice TX1152",
+    "quantity": "8 шт.",
+    "note": "Мониторы",
+    "asset": "ev-tx1152",
+    "image": "assets/equipment/more/ev-tx1152.webp",
+    "depiction": "photo"
   },
   {
     "id": "sound-2",
@@ -106,18 +106,6 @@
     "asset": "martin-wsx",
     "image": "assets/equipment/more/martin-wsx.webp",
     "depiction": "original"
-  },
-  {
-    "id": "sound-9",
-    "category": "sound",
-    "category_name": "Звук",
-    "group": "Пассивная акустика",
-    "name": "Outline Mantas 28",
-    "quantity": "18 шт.",
-    "note": "Линейный массив · по 9 на сторону",
-    "asset": "outline-mantas28",
-    "image": "assets/equipment/more/outline-mantas28.svg",
-    "depiction": "photo"
   },
   {
     "id": "sound-10",
