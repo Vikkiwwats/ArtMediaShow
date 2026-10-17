@@ -258,30 +258,33 @@ nav.stuck{background:rgba(0,0,0,.75);backdrop-filter:blur(32px);-webkit-backdrop
 
 /* ══ CLIENTS ══ */
 #clients{background:var(--d1)}
-.cl-intro{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;margin-top:48px;margin-bottom:60px}
-.cl-text p{font-size:15px;line-height:1.85;color:var(--w50);font-weight:300;margin-bottom:16px}
-.cl-text b{color:var(--w80);font-weight:600}
-.cl-hi{display:flex;flex-direction:column;gap:12px}
-.chi{display:flex;align-items:center;gap:18px;padding:18px 22px;background:var(--d2);border-radius:14px;border:1px solid var(--w05);transition:all .3s}
-.chi:hover{border-color:rgba(255,85,0,.2);background:var(--d3)}
-.chi-ico{font-size:22px;flex-shrink:0}
-.chi-t{font-size:13px;font-weight:700;margin-bottom:3px}
-.chi-d{font-size:12px;color:var(--w25);font-weight:300}
-.cl-logos{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--w05);border-radius:20px;overflow:hidden;border:1px solid var(--w05)}
-.cll{background:var(--d2);height:96px;display:flex;align-items:center;justify-content:center;padding:16px;transition:background .3s}
-.cll:hover{background:var(--d3)}
-.cll-ph{font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--w10);text-align:center;line-height:1.5}
-.cll-ph.dim{color:rgba(255,255,255,.05)}
-
-.tms{margin-top:60px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-.tm{background:var(--d2);border:1px solid var(--w05);border-radius:20px;padding:30px;position:relative;overflow:hidden;transition:all .4s}
-.tm:hover{border-color:rgba(255,85,0,.15);transform:translateY(-4px)}
-.tm::before{content:'"';position:absolute;top:16px;right:22px;font-size:80px;font-weight:900;color:var(--w02);line-height:1}
-.tm-txt{font-size:13px;line-height:1.8;color:var(--w50);font-weight:300;font-style:italic;margin-bottom:22px}
-.tm-au{display:flex;align-items:center;gap:12px}
-.tm-av{width:38px;height:38px;background:var(--og);border:1px solid rgba(255,85,0,.2);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--o2);flex-shrink:0}
-.tm-n{font-size:13px;font-weight:700;margin-bottom:2px}
-.tm-r{font-size:11px;color:var(--w25);font-weight:400;letter-spacing:.3px}
+#clients.sec{padding-top:88px;padding-bottom:88px}
+.clients-heading{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.clients-count{padding:9px 14px;border:1px solid var(--ob);border-radius:100px;font-size:11px;font-weight:600;letter-spacing:.6px;color:var(--o2);white-space:nowrap}
+.clients-lead{max-width:730px;margin:22px 0 32px;font-size:14px;line-height:1.8;color:var(--w50);font-weight:300}
+.clients-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;list-style:none;padding:0;margin:0}
+.clients-grid>li{min-width:0;display:flex}
+.client-card{display:flex;flex-direction:column;width:100%;padding:10px;gap:10px;border:1px solid var(--w10);border-radius:14px;background:var(--d2);transition:border-color .25s,background .25s,transform .25s}
+a.client-card:hover{border-color:rgba(255,85,0,.45);background:var(--d3);transform:translateY(-2px)}
+a.client-card:focus-visible{outline:2px solid var(--o2);outline-offset:3px}
+.client-logo-frame{display:flex;align-items:center;justify-content:center;width:100%;height:70px;padding:9px;background:#f7f6f2;border-radius:8px;overflow:hidden}
+.client-logo-frame.is-dark{background:#191919}
+.client-logo-frame img{display:block;width:100%;height:100%;max-width:155px;max-height:52px;object-fit:contain}
+.client-logo-text{color:var(--w50);background:transparent;font-size:10px;font-weight:400;line-height:1.5;text-align:center;letter-spacing:.4px}
+.client-name{display:block;margin:auto 0;font-size:11px;font-weight:500;line-height:1.5;color:var(--w80);text-align:center;overflow-wrap:anywhere}
+.clients-more{margin-top:18px}
+.clients-more summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:17px 20px;border:1px solid var(--ob);border-radius:12px;background:rgba(255,85,0,.035);color:var(--w80);font-size:12px;font-weight:600;cursor:pointer;transition:background .25s,border-color .25s}
+.clients-more summary::-webkit-details-marker{display:none}
+.clients-more summary:hover{background:var(--og);border-color:rgba(255,85,0,.5)}
+.clients-more summary:focus-visible{outline:2px solid var(--o2);outline-offset:4px}
+.clients-toggle{color:var(--o2);flex-shrink:0;transition:transform .25s}
+.clients-hide{display:none}
+.clients-more[open] .clients-hide{display:inline}
+.clients-more[open] .clients-show{display:none}
+.clients-more[open] .clients-toggle{transform:rotate(45deg)}
+.clients-more-body{padding-top:12px}
+@media(max-width:1100px){.clients-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:800px){#clients.sec{padding-top:64px;padding-bottom:64px}.clients-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.clients-heading{gap:14px}.clients-lead{font-size:13px;margin:20px 0 26px}.client-card{padding:8px;gap:8px;border-radius:11px}.client-logo-frame{height:58px;padding:8px}.client-logo-frame img{max-height:42px}.client-name{font-size:10px;line-height:1.45}.clients-count{font-size:10px;padding:7px 11px}.clients-more summary{padding:16px}}
 
 /* ══ PROCESS ══ */
 #process{background:#000}
@@ -658,34 +661,57 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
 <!-- CLIENTS -->
 <section id="clients" class="sec">
   <div class="sec-in">
-    <div class="stag rv"><div class="stag-line"></div><span>Нам доверяют</span></div>
-    <h2 class="sh rv d1">НАШИ <em>КЛИЕНТЫ</em></h2>
-    <div class="cl-intro">
-      <div class="cl-text rv d2">
-        <p>За годы работы среди наших клиентов — <b>крупные корпорации и частные организаторы</b>, известные бренды и государственные структуры. Все они выбирают нас снова, потому что знают: с АМШ событие пройдёт именно так, как задумано.</p>
-        <p>Нам доверяют не только технику — нам доверяют репутацию своего события. <b>И мы это осознаём. Каждый раз.</b></p>
+    <div class="stag rv"><div class="stag-line"></div><span>Нам доверяют · 2026</span></div>
+    <div class="clients-heading rv d1">
+      <h2 class="sh">НАШИ <em>КЛИЕНТЫ</em></h2>
+      <span class="clients-count">32 организации</span>
+    </div>
+    <p class="clients-lead rv d2">Предприятия, учреждения культуры и государственные организации, с которыми Art Media Show работала в 2026 году.</p>
+    <ul class="clients-grid clients-featured rv" aria-label="Среди наших клиентов">
+      <li data-client="belorusneft"><a class="client-card" href="https://www.belorusneft.by/" target="_blank" rel="noopener noreferrer" aria-label="РУП «Производственное объединение «Белоруснефть» — официальный сайт (откроется в новой вкладке)" title="РУП «Производственное объединение «Белоруснефть»"><span class="client-logo-frame"><img src="assets/clients/belorusneft.svg" alt="" width="160" height="64" loading="lazy" decoding="async"></span><span class="client-name">Белоруснефть</span></a></li>
+      <li data-client="gomselmash"><a class="client-card" href="https://gomselmash.by/" target="_blank" rel="noopener noreferrer" aria-label="ОАО «Гомсельмаш» — официальный сайт (откроется в новой вкладке)" title="ОАО «Гомсельмаш»"><span class="client-logo-frame"><img src="assets/clients/gomselmash.svg" alt="" width="160" height="64" loading="lazy" decoding="async"></span><span class="client-name">Гомсельмаш</span></a></li>
+      <li data-client="gomelenergo"><a class="client-card" href="https://www.gomelenergo.by/" target="_blank" rel="noopener noreferrer" aria-label="Гомельэнерго — официальный сайт (откроется в новой вкладке)" title="Гомельэнерго"><span class="client-logo-frame"><img src="assets/clients/gomelenergo.png" alt="" width="160" height="64" loading="lazy" decoding="async" style="max-width:82px"></span><span class="client-name">Гомельэнерго</span></a></li>
+      <li data-client="delta"><a class="client-card" href="https://bkdelta.ru/" target="_blank" rel="noopener noreferrer" aria-label="ОАО «Буровая компания «Дельта» — официальный сайт (откроется в новой вкладке)" title="ОАО «Буровая компания «Дельта»"><span class="client-logo-frame"><img src="assets/clients/delta-large.png" alt="" width="160" height="64" loading="lazy" decoding="async"></span><span class="client-name">Буровая компания «Дельта»</span></a></li>
+      <li data-client="gomel-philharmonic"><a class="client-card" href="https://gomelfil.by/" target="_blank" rel="noopener noreferrer" aria-label="ГУ «Гомельская областная филармония» — официальный сайт (откроется в новой вкладке)" title="ГУ «Гомельская областная филармония»"><span class="client-logo-frame"><img src="assets/clients/gomel-philharmonic.png" alt="" width="160" height="64" loading="lazy" decoding="async"></span><span class="client-name">Гомельская областная филармония</span></a></li>
+      <li data-client="grodno-philharmonic"><a class="client-card" href="https://grof.by/" target="_blank" rel="noopener noreferrer" aria-label="ГУ «Гродненская областная филармония» — официальный сайт (откроется в новой вкладке)" title="ГУ «Гродненская областная филармония»"><span class="client-logo-frame"><img src="assets/clients/grodno-philharmonic.svg" alt="" width="160" height="64" loading="lazy" decoding="async"></span><span class="client-name">Гродненская областная филармония</span></a></li>
+      <li data-client="gomel-okc"><a class="client-card" href="https://gomelokc.by/" target="_blank" rel="noopener noreferrer" aria-label="ГУ «Гомельский областной общественно-культурный центр» — официальный сайт (откроется в новой вкладке)" title="ГУ «Гомельский областной общественно-культурный центр»"><span class="client-logo-frame"><img src="assets/clients/gomel-okc.png" alt="" width="160" height="64" loading="lazy" decoding="async" style="max-width:115px"></span><span class="client-name">Общественно-культурный центр · Гомель</span></a></li>
+      <li data-client="mchs"><a class="client-card" href="https://mchs.gov.by/" target="_blank" rel="noopener noreferrer" aria-label="Гомельское областное управление Министерства по чрезвычайным ситуациям Республики Беларусь — официальный сайт (откроется в новой вкладке)" title="Гомельское областное управление Министерства по чрезвычайным ситуациям Республики Беларусь"><span class="client-logo-frame"><img src="assets/clients/mchs.png" alt="" width="160" height="64" loading="lazy" decoding="async" style="max-width:58px"></span><span class="client-name">Гомельское областное управление МЧС</span></a></li>
+      <li data-client="metallurg"><a class="client-card" href="https://metallurg.hockey.by/" target="_blank" rel="noopener noreferrer" aria-label="ЗАО «Хоккейный клуб «Металлург-Жлобин» — официальный сайт (откроется в новой вкладке)" title="ЗАО «Хоккейный клуб «Металлург-Жлобин»"><span class="client-logo-frame"><img src="assets/clients/metallurg.png" alt="" width="160" height="64" loading="lazy" decoding="async"></span><span class="client-name">ХК «Металлург-Жлобин»</span></a></li>
+      <li data-client="gomel-rail"><a class="client-card" href="https://gomel.rw.by/" target="_blank" rel="noopener noreferrer" aria-label="РУП «Гомельское отделение Белорусской железной дороги» — официальный сайт (откроется в новой вкладке)" title="РУП «Гомельское отделение Белорусской железной дороги»"><span class="client-logo-frame is-dark"><img src="assets/clients/gomel-rail.png" alt="" width="160" height="64" loading="lazy" decoding="async" style="max-width:140px"></span><span class="client-name">Гомельское отделение БЖД</span></a></li>
+      <li data-client="gomel-materials"><a class="client-card" href="https://oaogsm.by/" target="_blank" rel="noopener noreferrer" aria-label="ОАО «Гомельстройматериалы» — официальный сайт (откроется в новой вкладке)" title="ОАО «Гомельстройматериалы»"><span class="client-logo-frame"><img src="assets/clients/gomel-materials.png" alt="" width="160" height="64" loading="lazy" decoding="async"></span><span class="client-name">Гомельстройматериалы</span></a></li>
+      <li data-client="gomel-drama"><a class="client-card" href="https://gomeldrama.by/" target="_blank" rel="noopener noreferrer" aria-label="ГУ «Гомельский областной драматический театр» — официальный сайт (откроется в новой вкладке)" title="ГУ «Гомельский областной драматический театр»"><span class="client-logo-frame is-dark"><img src="assets/clients/gomel-drama.png" alt="" width="160" height="64" loading="lazy" decoding="async"></span><span class="client-name">Гомельский областной драматический театр</span></a></li>
+    </ul>
+    <details class="clients-more">
+      <summary>
+        <span class="clients-show">Показать ещё 20 клиентов</span>
+        <span class="clients-hide">Свернуть список клиентов</span>
+        <svg class="clients-toggle" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+      </summary>
+      <div class="clients-more-body">
+        <ul class="clients-grid" aria-label="Остальные клиенты за 2026 год">
+      <li data-client="teamlab"><a class="client-card" href="https://teamlab-project.by/" target="_blank" rel="noopener noreferrer" aria-label="ООО «Тим Лаб Проект» — официальный сайт (откроется в новой вкладке)" title="ООО «Тим Лаб Проект»"><span class="client-logo-frame"><img src="assets/clients/teamlab.png" alt="" width="160" height="64" loading="lazy" decoding="async" style="max-width:48px"></span><span class="client-name">Тим Лаб Проект</span></a></li>
+      <li data-client="gomel-product"><div class="client-card" title="ООО «ГомельПродуктСервис»"><span class="client-logo-frame client-logo-text">Компания</span><span class="client-name">ГомельПродуктСервис</span></div></li>
+      <li data-client="gomel-gck"><a class="client-card" href="https://gckkost.wordpress.com/" target="_blank" rel="noopener noreferrer" aria-label="ГУ «Городской центр культуры», Гомель — официальный сайт (откроется в новой вкладке)" title="ГУ «Городской центр культуры», Гомель"><span class="client-logo-frame"><img src="assets/clients/gomel-gck.png" alt="" width="160" height="64" loading="lazy" decoding="async"></span><span class="client-name">Городской центр культуры · Гомель</span></a></li>
+      <li data-client="inclusive"><a class="client-card" href="https://inkulture.gomel.by/" target="_blank" rel="noopener noreferrer" aria-label="ГУ «Гомельский областной центр инклюзивной культуры» — официальный сайт (откроется в новой вкладке)" title="ГУ «Гомельский областной центр инклюзивной культуры»"><span class="client-logo-frame"><img src="assets/clients/inclusive-mark.png" alt="" width="160" height="64" loading="lazy" decoding="async"></span><span class="client-name">Гомельский областной центр инклюзивной культуры</span></a></li>
+      <li data-client="marketvit"><a class="client-card" href="https://marketvit.by/" target="_blank" rel="noopener noreferrer" aria-label="Витебский областной центр маркетинга — официальный сайт (откроется в новой вкладке)" title="Витебский областной центр маркетинга"><span class="client-logo-frame"><img src="assets/clients/marketvit.png" alt="" width="160" height="64" loading="lazy" decoding="async" style="max-width:40px"></span><span class="client-name">Витебский областной центр маркетинга</span></a></li>
+      <li data-client="vitebsk-culture"><a class="client-card" href="https://gck.by/" target="_blank" rel="noopener noreferrer" aria-label="ГУ «Центр культуры «Витебск» — официальный сайт (откроется в новой вкладке)" title="ГУ «Центр культуры «Витебск»"><span class="client-logo-frame"><img src="assets/clients/vitebsk-culture.svg" alt="" width="160" height="64" loading="lazy" decoding="async"></span><span class="client-name">Центр культуры «Витебск»</span></a></li>
+      <li data-client="mogilev-puppets"><a class="client-card" href="http://www.teatrkukol.by/" target="_blank" rel="noopener noreferrer" aria-label="Могилевский областной театр кукол — официальный сайт (откроется в новой вкладке)" title="Могилевский областной театр кукол"><span class="client-logo-frame"><img src="assets/clients/mogilev-puppets-icon.jpg" alt="" width="160" height="64" loading="lazy" decoding="async"></span><span class="client-name">Могилёвский областной театр кукол</span></a></li>
+      <li data-client="gomel-csms"><a class="client-card" href="https://gomelcsms.by/" target="_blank" rel="noopener noreferrer" aria-label="Гомельский центр стандартизации, метрологии и сертификации — официальный сайт (откроется в новой вкладке)" title="Гомельский центр стандартизации, метрологии и сертификации"><span class="client-logo-frame is-dark"><img src="assets/clients/gomel-csms.svg" alt="" width="160" height="64" loading="lazy" decoding="async"></span><span class="client-name">Гомельский ЦСМС</span></a></li>
+      <li data-client="svetlogorsk"><div class="client-card" title="Отдел культуры Светлогорского районного исполнительного комитета"><span class="client-logo-frame client-logo-text">Государственное учреждение</span><span class="client-name">Отдел культуры Светлогорского райисполкома</span></div></li>
+      <li data-client="slavgorod"><a class="client-card" href="https://slavgorod.gov.by/" target="_blank" rel="noopener noreferrer" aria-label="Славгородский районный исполнительный комитет — официальный сайт (откроется в новой вкладке)" title="Славгородский районный исполнительный комитет"><span class="client-logo-frame"><img src="assets/clients/slavgorod.png" alt="" width="160" height="64" loading="lazy" decoding="async" style="max-width:112px"></span><span class="client-name">Славгородский райисполком</span></a></li>
+      <li data-client="dobrush"><div class="client-card" title="Добрушский районный исполнительный комитет"><span class="client-logo-frame client-logo-text">Государственное учреждение</span><span class="client-name">Добрушский райисполком</span></div></li>
+      <li data-client="gomel-central"><a class="client-card" href="https://cenadm.gov.by/" target="_blank" rel="noopener noreferrer" aria-label="Администрация Центрального района г. Гомеля — официальный сайт (откроется в новой вкладке)" title="Администрация Центрального района г. Гомеля"><span class="client-logo-frame"><img src="assets/clients/gomel-city.png" alt="" width="160" height="64" loading="lazy" decoding="async" style="max-width:46px"></span><span class="client-name">Администрация Центрального района Гомеля</span></a></li>
+      <li data-client="gomel-soviet"><div class="client-card" title="Администрация Советского района г. Гомеля"><span class="client-logo-frame client-logo-text">Государственное учреждение</span><span class="client-name">Администрация Советского района Гомеля</span></div></li>
+      <li data-client="gomel-metal"><a class="client-card" href="https://gomelbvm.by/" target="_blank" rel="noopener noreferrer" aria-label="УП «Гомельвторчермет» — официальный сайт (откроется в новой вкладке)" title="УП «Гомельвторчермет»"><span class="client-logo-frame is-dark"><img src="assets/clients/gomel-metal.svg" alt="" width="160" height="64" loading="lazy" decoding="async"></span><span class="client-name">Гомельвторчермет</span></a></li>
+      <li data-client="gomel-museum"><a class="client-card" href="https://voenmuz.by/" target="_blank" rel="noopener noreferrer" aria-label="ГУ «Гомельский областной музей военной славы» — официальный сайт (откроется в новой вкладке)" title="ГУ «Гомельский областной музей военной славы»"><span class="client-logo-frame"><img src="assets/clients/gomel-museum.png" alt="" width="160" height="64" loading="lazy" decoding="async" style="max-width:66px"></span><span class="client-name">Гомельский областной музей военной славы</span></a></li>
+      <li data-client="gomel-district"><a class="client-card" href="https://gomelisp.gov.by/" target="_blank" rel="noopener noreferrer" aria-label="Отдел культуры Гомельского районного исполнительного комитета — официальный сайт (откроется в новой вкладке)" title="Отдел культуры Гомельского районного исполнительного комитета"><span class="client-logo-frame client-logo-text">Государственное учреждение</span><span class="client-name">Отдел культуры Гомельского райисполкома</span></a></li>
+      <li data-client="lialka"><a class="client-card" href="https://lialka.by/ru/" target="_blank" rel="noopener noreferrer" aria-label="ТЗУ «Белорусский театр «Лялька» — официальный сайт (откроется в новой вкладке)" title="ТЗУ «Белорусский театр «Лялька»"><span class="client-logo-frame is-dark"><img src="assets/clients/lialka.png" alt="" width="160" height="64" loading="lazy" decoding="async"></span><span class="client-name">Белорусский театр «Лялька»</span></a></li>
+      <li data-client="soligorsk"><a class="client-card" href="https://soligorsk.gov.by/" target="_blank" rel="noopener noreferrer" aria-label="Отдел культуры Солигорского районного исполнительного комитета — официальный сайт (откроется в новой вкладке)" title="Отдел культуры Солигорского районного исполнительного комитета"><span class="client-logo-frame"><img src="assets/clients/soligorsk.webp" alt="" width="160" height="64" loading="lazy" decoding="async" style="max-width:56px"></span><span class="client-name">Отдел культуры Солигорского райисполкома</span></a></li>
+      <li data-client="soundpro"><a class="client-card" href="https://soundpro.by/" target="_blank" rel="noopener noreferrer" aria-label="ООО «Саундпробай» — официальный сайт (откроется в новой вкладке)" title="ООО «Саундпробай»"><span class="client-logo-frame"><img src="assets/clients/soundpro.png" alt="" width="160" height="64" loading="lazy" decoding="async"></span><span class="client-name">Саундпробай</span></a></li>
+      <li data-client="rechitsa"><div class="client-card" title="Отдел культуры Речицкого районного исполнительного комитета"><span class="client-logo-frame client-logo-text">Государственное учреждение</span><span class="client-name">Отдел культуры Речицкого райисполкома</span></div></li>
+        </ul>
       </div>
-      <div class="cl-hi rv d3">
-        <div class="chi"><div class="chi-ico">🎪</div><div><div class="chi-t">Фестивали и open-air</div><div class="chi-d">Работали на площадках до 5000 гостей</div></div></div>
-        <div class="chi"><div class="chi-ico">🏢</div><div><div class="chi-t">Корпоративный сектор</div><div class="chi-d">Ежегодные партнёры крупных компаний региона</div></div></div>
-        <div class="chi"><div class="chi-ico">🎤</div><div><div class="chi-t">Артисты и промоутеры</div><div class="chi-d">Обеспечиваем технический райдер любой сложности</div></div></div>
-      </div>
-    </div>
-    <div class="cl-logos rv">
-      <div class="cll"><div class="cll-ph">Логотип клиента</div></div>
-      <div class="cll"><div class="cll-ph">Логотип клиента</div></div>
-      <div class="cll"><div class="cll-ph">Логотип клиента</div></div>
-      <div class="cll"><div class="cll-ph">Логотип клиента</div></div>
-      <div class="cll"><div class="cll-ph dim">+ ваш логотип</div></div>
-      <div class="cll"><div class="cll-ph dim">+ ваш логотип</div></div>
-      <div class="cll"><div class="cll-ph dim">+ ваш логотип</div></div>
-      <div class="cll"><div class="cll-ph dim">+ ваш логотип</div></div>
-    </div>
-    <div class="tms">
-      <div class="tm rv"><div class="tm-txt">"Работаем с АМШ уже третий год подряд. Ни разу не подвели — ни по срокам, ни по качеству. Звук и свет на наших мероприятиях всегда на высшем уровне."</div><div class="tm-au"><div class="tm-av">АИ</div><div><div class="tm-n">Имя клиента</div><div class="tm-r">Организатор событий</div></div></div></div>
-      <div class="tm rv d1"><div class="tm-txt">"Когда нам нужен был LED-экран для конференции, ребята подобрали идеальное решение и смонтировали всё за несколько часов. Очень профессиональная команда."</div><div class="tm-au"><div class="tm-av">МС</div><div><div class="tm-n">Имя клиента</div><div class="tm-r">Директор по маркетингу</div></div></div></div>
-      <div class="tm rv d2"><div class="tm-txt">"Обратились впервые на корпоратив — были приятно удивлены. Свет выставили идеально, звук чистый. Теперь только с АМШ. Рекомендуем без колебаний."</div><div class="tm-au"><div class="tm-av">НК</div><div><div class="tm-n">Имя клиента</div><div class="tm-r">Event-менеджер</div></div></div></div>
-    </div>
+    </details>
   </div>
 </section>
 
@@ -929,4 +955,5 @@ contactForm.addEventListener('submit',async event=>{
 </script>
 </body>
 </html>
+
 
