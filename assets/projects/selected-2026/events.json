@@ -1,145 +1,5 @@
 [
   {
-    "id": "gorshenev",
-    "title": "Горшенёв — юбилейный концерт",
-    "category": "Концертный тур",
-    "meta": "Май 2026 · Беларусь",
-    "description": "Техническое обеспечение тура «Горшенёв — юбилейный концерт». Май 2026: Гродно, Гомель, Могилёв и Витебск.",
-    "focus": "50% 50%",
-    "images": [
-      {
-        "src": "assets/projects/selected-2026/gorshenev-tour.webp",
-        "thumbnail": "assets/projects/selected-2026/gorshenev-tour-thumb.webp",
-        "width": 1600,
-        "height": 900,
-        "thumbnail_width": 720,
-        "thumbnail_height": 405,
-        "bytes": 106574,
-        "alt": "Концертная сцена с барабанной установкой и разноцветными световыми лучами"
-      }
-    ]
-  },
-  {
-    "id": "open-summer",
-    "title": "Open Summer 2026",
-    "category": "Фестиваль",
-    "meta": "Свет и атмосфера события · 3 кадра",
-    "description": "Техническое обеспечение Open Summer 2026. Свет на танцполе, DJ-сет и общий вид площадки — три кадра одного события.",
-    "focus": "50% 58%",
-    "images": [
-      {
-        "src": "assets/projects/selected-2026/open-summer-crowd.webp",
-        "thumbnail": "assets/projects/selected-2026/open-summer-crowd-thumb.webp",
-        "width": 1086,
-        "height": 1448,
-        "thumbnail_width": 720,
-        "thumbnail_height": 960,
-        "bytes": 221530,
-        "alt": "Танцевальный круг под янтарным светом на Open Summer 2026"
-      },
-      {
-        "src": "assets/projects/selected-2026/open-summer-dj.webp",
-        "thumbnail": "assets/projects/selected-2026/open-summer-dj-thumb.webp",
-        "width": 1086,
-        "height": 1448,
-        "thumbnail_width": 720,
-        "thumbnail_height": 960,
-        "bytes": 151736,
-        "alt": "DJ за пультом перед экраном с красной графикой на Open Summer 2026"
-      },
-      {
-        "src": "assets/projects/selected-2026/open-summer-hall.webp",
-        "thumbnail": "assets/projects/selected-2026/open-summer-hall-thumb.webp",
-        "width": 1536,
-        "height": 1024,
-        "thumbnail_width": 720,
-        "thumbnail_height": 480,
-        "bytes": 143112,
-        "alt": "Площадка Open Summer 2026 с балконом, световыми приборами и зрителями"
-      }
-    ]
-  },
-  {
-    "id": "supermodelka",
-    "title": "Супермоделька 2022",
-    "category": "Модельный показ",
-    "meta": "Креативный LED-экран",
-    "description": "Техническое обеспечение мероприятия «Супермоделька 2022». Предоставление креативного светодиодного экрана.",
-    "focus": "50% 46%",
-    "images": [
-      {
-        "src": "assets/projects/selected-2026/supermodelka-2022.webp",
-        "thumbnail": "assets/projects/selected-2026/supermodelka-2022-thumb.webp",
-        "width": 1254,
-        "height": 1254,
-        "thumbnail_width": 720,
-        "thumbnail_height": 720,
-        "bytes": 261160,
-        "alt": "Подиум Супермодельки 2022 с креативным LED-порталом и синим светом"
-      }
-    ]
-  },
-  {
-    "id": "kristall",
-    "title": "Юбилей ПО «Кристалл»",
-    "category": "Юбилейное мероприятие",
-    "meta": "Гомель",
-    "description": "Техническое обеспечение юбилейного мероприятия ПО «Кристалл» в Гомеле.",
-    "focus": "50% 60%",
-    "images": [
-      {
-        "src": "assets/projects/selected-2026/kristall-anniversary.webp",
-        "thumbnail": "assets/projects/selected-2026/kristall-anniversary-thumb.webp",
-        "width": 1122,
-        "height": 1402,
-        "thumbnail_width": 720,
-        "thumbnail_height": 900,
-        "bytes": 190092,
-        "alt": "Ведущие юбилея ПО Кристалл на сцене под жёлтыми и белыми световыми лучами"
-      }
-    ]
-  },
-  {
-    "id": "pride-cup",
-    "title": "PRIDE CUP III",
-    "category": "Спортивное событие",
-    "meta": "Дзюдо · «Локомотив»",
-    "description": "Центральный LED-экран и вертикальные видеопанели на площадке турнира по дзюдо PRIDE CUP III.",
-    "focus": "50% 50%",
-    "images": [
-      {
-        "src": "assets/projects/selected-2026/pride-cup-iii.webp",
-        "thumbnail": "assets/projects/selected-2026/pride-cup-iii-thumb.webp",
-        "width": 1448,
-        "height": 1086,
-        "thumbnail_width": 720,
-        "thumbnail_height": 540,
-        "bytes": 257124,
-        "alt": "Спортивный зал PRIDE CUP III с центральным LED-экраном и шестью вертикальными видеопанелями"
-      }
-    ]
-  },
-  {
-    "id": "bobruisk",
-    "title": "II Бобруйский мотофестиваль",
-    "category": "Мотофестиваль",
-    "meta": "Концертная программа",
-    "description": "Техническое обеспечение II Бобруйского мотофестиваля. Кадр концертной программы на фестивальной сцене.",
-    "focus": "50% 36%",
-    "images": [
-      {
-        "src": "assets/projects/selected-2026/bobruisk-motofestival.webp",
-        "thumbnail": "assets/projects/selected-2026/bobruisk-motofestival-thumb.webp",
-        "width": 1086,
-        "height": 1448,
-        "thumbnail_width": 720,
-        "thumbnail_height": 960,
-        "bytes": 266690,
-        "alt": "Музыкант с микрофоном и барабанная установка на сцене II Бобруйского мотофестиваля"
-      }
-    ]
-  },
-  {
     "id": "megadisco",
     "title": "Мегадискотека",
     "category": "Музыкальное событие",
@@ -190,22 +50,162 @@
     ]
   },
   {
-    "id": "fashion-runway",
-    "title": "Подиум и LED-экраны",
-    "category": "Модельный показ",
-    "meta": "Показ в зале",
-    "description": "Центральный подиум, три LED-экрана и световое оформление модельного показа.",
-    "focus": "50% 62%",
+    "id": "rechitsa",
+    "title": "Живая музыка в Речице",
+    "category": "Музыкальное событие",
+    "meta": "Речица · Гомельская область",
+    "description": "Живое выступление, свет и зеркальные шары на площадке в Речице.",
+    "focus": "50% 50%",
     "images": [
       {
-        "src": "assets/projects/selected-2026/fashion-led-runway.webp",
-        "thumbnail": "assets/projects/selected-2026/fashion-led-runway-thumb.webp",
+        "src": "assets/projects/selected-2026/rechitsa-live.webp",
+        "thumbnail": "assets/projects/selected-2026/rechitsa-live-thumb.webp",
+        "width": 1536,
+        "height": 1024,
+        "thumbnail_width": 720,
+        "thumbnail_height": 480,
+        "bytes": 260924,
+        "alt": "Группа в белых костюмах и зрители под зеркальными шарами в красно-розовом свете"
+      }
+    ]
+  },
+  {
+    "id": "festival-outdoor",
+    "title": "Фестиваль на открытой сцене",
+    "category": "Фестиваль",
+    "meta": "Техническое обеспечение",
+    "description": "Техническое обеспечение фестиваля. Крытая сцена, LED-экран и танцевальная программа на открытой площадке.",
+    "focus": "50% 50%",
+    "images": [
+      {
+        "src": "assets/projects/selected-2026/outdoor-festival.webp",
+        "thumbnail": "assets/projects/selected-2026/outdoor-festival-thumb.webp",
+        "width": 1600,
+        "height": 900,
+        "thumbnail_width": 720,
+        "thumbnail_height": 405,
+        "bytes": 351072,
+        "alt": "Танцоры на крытой фестивальной сцене с LED-экраном и подвесными акустическими системами"
+      }
+    ]
+  },
+  {
+    "id": "kristall",
+    "title": "Юбилей ПО «Кристалл»",
+    "category": "Юбилейное мероприятие",
+    "meta": "Гомель",
+    "description": "Техническое обеспечение юбилейного мероприятия ПО «Кристалл» в Гомеле.",
+    "focus": "50% 60%",
+    "images": [
+      {
+        "src": "assets/projects/selected-2026/kristall-anniversary.webp",
+        "thumbnail": "assets/projects/selected-2026/kristall-anniversary-thumb.webp",
+        "width": 1122,
+        "height": 1402,
+        "thumbnail_width": 720,
+        "thumbnail_height": 900,
+        "bytes": 190092,
+        "alt": "Ведущие юбилея ПО Кристалл на сцене под жёлтыми и белыми световыми лучами"
+      }
+    ]
+  },
+  {
+    "id": "open-summer",
+    "title": "Open Summer 2026",
+    "category": "Фестиваль",
+    "meta": "Свет и атмосфера события · 3 кадра",
+    "description": "Техническое обеспечение Open Summer 2026. Свет на танцполе, DJ-сет и общий вид площадки — три кадра одного события.",
+    "focus": "50% 58%",
+    "images": [
+      {
+        "src": "assets/projects/selected-2026/open-summer-crowd.webp",
+        "thumbnail": "assets/projects/selected-2026/open-summer-crowd-thumb.webp",
         "width": 1086,
         "height": 1448,
         "thumbnail_width": 720,
         "thumbnail_height": 960,
-        "bytes": 122964,
-        "alt": "Модель на розовом подиуме между тремя LED-экранами в зале"
+        "bytes": 221530,
+        "alt": "Танцевальный круг под янтарным светом на Open Summer 2026"
+      },
+      {
+        "src": "assets/projects/selected-2026/open-summer-dj.webp",
+        "thumbnail": "assets/projects/selected-2026/open-summer-dj-thumb.webp",
+        "width": 1086,
+        "height": 1448,
+        "thumbnail_width": 720,
+        "thumbnail_height": 960,
+        "bytes": 151736,
+        "alt": "DJ за пультом перед экраном с красной графикой на Open Summer 2026"
+      },
+      {
+        "src": "assets/projects/selected-2026/open-summer-hall.webp",
+        "thumbnail": "assets/projects/selected-2026/open-summer-hall-thumb.webp",
+        "width": 1536,
+        "height": 1024,
+        "thumbnail_width": 720,
+        "thumbnail_height": 480,
+        "bytes": 143112,
+        "alt": "Площадка Open Summer 2026 с балконом, световыми приборами и зрителями"
+      }
+    ]
+  },
+  {
+    "id": "gorshenev",
+    "title": "Горшенёв — юбилейный концерт",
+    "category": "Концертный тур",
+    "meta": "Май 2026 · Беларусь",
+    "description": "Техническое обеспечение тура «Горшенёв — юбилейный концерт». Май 2026: Гродно, Гомель, Могилёв и Витебск.",
+    "focus": "50% 50%",
+    "images": [
+      {
+        "src": "assets/projects/selected-2026/gorshenev-tour.webp",
+        "thumbnail": "assets/projects/selected-2026/gorshenev-tour-thumb.webp",
+        "width": 1600,
+        "height": 900,
+        "thumbnail_width": 720,
+        "thumbnail_height": 405,
+        "bytes": 106574,
+        "alt": "Концертная сцена с барабанной установкой и разноцветными световыми лучами"
+      }
+    ]
+  },
+  {
+    "id": "bobruisk",
+    "title": "II Бобруйский мотофестиваль",
+    "category": "Мотофестиваль",
+    "meta": "Концертная программа",
+    "description": "Техническое обеспечение II Бобруйского мотофестиваля. Кадр концертной программы на фестивальной сцене.",
+    "focus": "50% 36%",
+    "images": [
+      {
+        "src": "assets/projects/selected-2026/bobruisk-motofestival.webp",
+        "thumbnail": "assets/projects/selected-2026/bobruisk-motofestival-thumb.webp",
+        "width": 1086,
+        "height": 1448,
+        "thumbnail_width": 720,
+        "thumbnail_height": 960,
+        "bytes": 266690,
+        "alt": "Музыкант с микрофоном и барабанная установка на сцене II Бобруйского мотофестиваля"
+      }
+    ]
+  },
+  {
+    "id": "pride-cup",
+    "title": "PRIDE CUP III",
+    "category": "Спортивное событие",
+    "meta": "Дзюдо · «Локомотив»",
+    "description": "Центральный LED-экран и вертикальные видеопанели на площадке турнира по дзюдо PRIDE CUP III.",
+    "focus": "50% 50%",
+    "images": [
+      {
+        "src": "assets/projects/selected-2026/pride-cup-iii.webp",
+        "thumbnail": "assets/projects/selected-2026/pride-cup-iii-thumb.webp",
+        "width": 1448,
+        "height": 1086,
+        "thumbnail_width": 720,
+        "thumbnail_height": 540,
+        "bytes": 257124,
+        "alt": "Спортивный зал PRIDE CUP III с центральным LED-экраном и шестью вертикальными видеопанелями"
       }
     ]
   },
@@ -250,42 +250,42 @@
     ]
   },
   {
-    "id": "rechitsa",
-    "title": "Живая музыка в Речице",
-    "category": "Музыкальное событие",
-    "meta": "Речица · Гомельская область",
-    "description": "Живое выступление, свет и зеркальные шары на площадке в Речице.",
-    "focus": "50% 50%",
+    "id": "fashion-runway",
+    "title": "Подиум и LED-экраны",
+    "category": "Модельный показ",
+    "meta": "Показ в зале",
+    "description": "Центральный подиум, три LED-экрана и световое оформление модельного показа.",
+    "focus": "50% 62%",
     "images": [
       {
-        "src": "assets/projects/selected-2026/rechitsa-live.webp",
-        "thumbnail": "assets/projects/selected-2026/rechitsa-live-thumb.webp",
-        "width": 1536,
-        "height": 1024,
+        "src": "assets/projects/selected-2026/fashion-led-runway.webp",
+        "thumbnail": "assets/projects/selected-2026/fashion-led-runway-thumb.webp",
+        "width": 1086,
+        "height": 1448,
         "thumbnail_width": 720,
-        "thumbnail_height": 480,
-        "bytes": 260924,
-        "alt": "Группа в белых костюмах и зрители под зеркальными шарами в красно-розовом свете"
+        "thumbnail_height": 960,
+        "bytes": 122964,
+        "alt": "Модель на розовом подиуме между тремя LED-экранами в зале"
       }
     ]
   },
   {
-    "id": "festival-outdoor",
-    "title": "Фестиваль на открытой сцене",
-    "category": "Фестиваль",
-    "meta": "Техническое обеспечение",
-    "description": "Техническое обеспечение фестиваля. Крытая сцена, LED-экран и танцевальная программа на открытой площадке.",
-    "focus": "50% 50%",
+    "id": "supermodelka",
+    "title": "Супермоделька 2022",
+    "category": "Модельный показ",
+    "meta": "Креативный LED-экран",
+    "description": "Техническое обеспечение мероприятия «Супермоделька 2022». Предоставление креативного светодиодного экрана.",
+    "focus": "50% 46%",
     "images": [
       {
-        "src": "assets/projects/selected-2026/outdoor-festival.webp",
-        "thumbnail": "assets/projects/selected-2026/outdoor-festival-thumb.webp",
-        "width": 1600,
-        "height": 900,
+        "src": "assets/projects/selected-2026/supermodelka-2022.webp",
+        "thumbnail": "assets/projects/selected-2026/supermodelka-2022-thumb.webp",
+        "width": 1254,
+        "height": 1254,
         "thumbnail_width": 720,
-        "thumbnail_height": 405,
-        "bytes": 351072,
-        "alt": "Танцоры на крытой фестивальной сцене с LED-экраном и подвесными акустическими системами"
+        "thumbnail_height": 720,
+        "bytes": 261160,
+        "alt": "Подиум Супермодельки 2022 с креативным LED-порталом и синим светом"
       }
     ]
   },
