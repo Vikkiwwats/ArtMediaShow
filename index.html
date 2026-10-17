@@ -258,13 +258,15 @@ nav.stuck{background:rgba(0,0,0,.75);backdrop-filter:blur(32px);-webkit-backdrop
 .pi:nth-child(4){grid-column:span 3}
 .pi:nth-child(5){grid-column:span 4}
 .pi:nth-child(6){grid-column:span 5}
-.pi-inner{width:100%;height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px}
-.pi-ico{font-size:24px;opacity:.12}
-.pi-hint{font-size:10px;font-weight:500;letter-spacing:2px;color:var(--w10);text-transform:uppercase}
-.pi-ov{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.92) 0%,rgba(0,0,0,.3) 50%,transparent 100%);opacity:0;transition:opacity .4s;display:flex;align-items:flex-end;padding:20px}
+.pi-img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .6s cubic-bezier(.4,0,.2,1)}
+.pi:hover .pi-img{transform:scale(1.04)}
+.pi:focus-visible{outline:2px solid var(--o2);outline-offset:3px}
+.pi-ov{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.94) 0%,rgba(0,0,0,.48) 35%,transparent 75%);opacity:1;transition:background .4s;display:flex;align-items:flex-end;padding:20px}
 .pi:hover .pi-ov{opacity:1}
 .pi-cat{font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--o2);margin-bottom:4px}
-.pi-name{font-size:14px;font-weight:700;letter-spacing:-.2px}
+.pi-name{font-size:14px;font-weight:700;letter-spacing:-.2px;line-height:1.3}
+.pi-source{display:block;margin-top:10px;font-size:10px;line-height:1.3;color:var(--w80)}
+.proj-more{margin-top:24px}
 
 /* ══ CLIENTS ══ */
 #clients{background:var(--d1)}
@@ -628,16 +630,35 @@ footer{background:#000;border-top:1px solid var(--w05);padding:64px 72px}
         <div class="stag rv"><div class="stag-line"></div><span>Наши работы</span></div>
         <h2 class="sh rv d1">ГАЛЕРЕЯ <em>ПРОЕКТОВ</em></h2>
       </div>
-      <p class="ssub rv d2" style="max-width:300px;">Замените плейсхолдеры своими лучшими фотографиями с событий.</p>
+      <p class="ssub rv d2" style="max-width:300px;">Кадры с мероприятий Art Media Show: сцена, свет, LED-экраны и атмосфера событий.</p>
     </div>
     <div class="proj-grid">
-      <div class="pi rv"><div class="pi-inner"><div class="pi-ico">📸</div><div class="pi-hint">Ваше фото</div></div><div class="pi-ov"><div><div class="pi-cat">Концерт</div><div class="pi-name">Название проекта</div></div></div></div>
-      <div class="pi rv d1"><div class="pi-inner"><div class="pi-ico">📸</div><div class="pi-hint">Ваше фото</div></div><div class="pi-ov"><div><div class="pi-cat">Корпоратив</div><div class="pi-name">Название проекта</div></div></div></div>
-      <div class="pi rv d2"><div class="pi-inner"><div class="pi-ico">📸</div><div class="pi-hint">Ваше фото</div></div><div class="pi-ov"><div><div class="pi-cat">Фестиваль</div><div class="pi-name">Название проекта</div></div></div></div>
-      <div class="pi rv d1"><div class="pi-inner"><div class="pi-ico">📸</div><div class="pi-hint">Ваше фото</div></div><div class="pi-ov"><div><div class="pi-cat">LED-шоу</div><div class="pi-name">Название проекта</div></div></div></div>
-      <div class="pi rv d2"><div class="pi-inner"><div class="pi-ico">📸</div><div class="pi-hint">Ваше фото</div></div><div class="pi-ov"><div><div class="pi-cat">Конференция</div><div class="pi-name">Название проекта</div></div></div></div>
-      <div class="pi rv d3"><div class="pi-inner"><div class="pi-ico">📸</div><div class="pi-hint">Ваше фото</div></div><div class="pi-ov"><div><div class="pi-cat">Шоу-программа</div><div class="pi-name">Название проекта</div></div></div></div>
+      <a class="pi rv" href="https://www.instagram.com/art_media_show/reel/Da4OqPKKQeT/" target="_blank" rel="noopener noreferrer" aria-label="Фестивальная сцена — публикация Art Media Show в Instagram (откроется в новой вкладке)">
+        <img class="pi-img" src="assets/projects/festival-stage.jpg" alt="Ночная фестивальная сцена с лазерными лучами и фейерверком" width="640" height="362" loading="lazy" decoding="async" style="object-position:50% 50%">
+        <div class="pi-ov"><div><div class="pi-cat">Фестиваль</div><div class="pi-name">Фестивальная сцена</div><span class="pi-source">Смотреть в Instagram ↗</span></div></div>
+      </a>
+      <a class="pi rv d1" href="https://www.instagram.com/art_media_show/reel/DbI2JIWq3F8/" target="_blank" rel="noopener noreferrer" aria-label="Лазерный свет и LED-экран — публикация Art Media Show в Instagram (откроется в новой вкладке)">
+        <img class="pi-img" src="assets/projects/laser-led-show.jpg" alt="Площадка с артистом, LED-экраном и лазерными лучами" width="360" height="640" loading="lazy" decoding="async" style="object-position:50% 35%">
+        <div class="pi-ov"><div><div class="pi-cat">Шоу</div><div class="pi-name">Лазерный свет и LED-экран</div><span class="pi-source">Смотреть в Instagram ↗</span></div></div>
+      </a>
+      <a class="pi rv d2" href="https://www.instagram.com/art_media_show/reel/DY38NTJKU7c/" target="_blank" rel="noopener noreferrer" aria-label="Свет в интерьере — публикация Art Media Show в Instagram (откроется в новой вкладке)">
+        <img class="pi-img" src="assets/projects/hall-lighting.jpg" alt="Световое оформление зала с балконами и декоративной люстрой" width="360" height="640" loading="lazy" decoding="async" style="object-position:50% 55%">
+        <div class="pi-ov"><div><div class="pi-cat">Оформление зала</div><div class="pi-name">Свет в интерьере</div><span class="pi-source">Смотреть в Instagram ↗</span></div></div>
+      </a>
+      <a class="pi rv d1" href="https://www.instagram.com/art_media_show/reel/DcOLJweqxcM/" target="_blank" rel="noopener noreferrer" aria-label="Сцена под открытым небом — публикация Art Media Show в Instagram (откроется в новой вкладке)">
+        <img class="pi-img" src="assets/projects/openair-stage.jpg" alt="Открытая сценическая площадка с мотоциклом и световыми приборами" width="360" height="640" loading="lazy" decoding="async" style="object-position:50% 60%">
+        <div class="pi-ov"><div><div class="pi-cat">Open-air</div><div class="pi-name">Сцена под открытым небом</div><span class="pi-source">Смотреть в Instagram ↗</span></div></div>
+      </a>
+      <a class="pi rv d2" href="https://www.instagram.com/art_media_show/reel/DcGm9OkKuU0/" target="_blank" rel="noopener noreferrer" aria-label="Световое шоу — публикация Art Media Show в Instagram (откроется в новой вкладке)">
+        <img class="pi-img" src="assets/projects/event-lighting.jpg" alt="Красные световые лучи над зрителями на мероприятии" width="360" height="640" loading="lazy" decoding="async" style="object-position:50% 45%">
+        <div class="pi-ov"><div><div class="pi-cat">Мероприятие</div><div class="pi-name">Световое шоу</div><span class="pi-source">Смотреть в Instagram ↗</span></div></div>
+      </a>
+      <a class="pi rv d3" href="https://www.instagram.com/art_media_show/reel/DYLyTeEIUHW/" target="_blank" rel="noopener noreferrer" aria-label="Концертная сцена — публикация Art Media Show в Instagram (откроется в новой вкладке)">
+        <img class="pi-img" src="assets/projects/concert-stage.jpg" alt="Освещённая концертная сцена и зрительный зал" width="361" height="640" loading="lazy" decoding="async" style="object-position:50% 30%">
+        <div class="pi-ov"><div><div class="pi-cat">Концерт</div><div class="pi-name">Концертная сцена</div><span class="pi-source">Смотреть в Instagram ↗</span></div></div>
+      </a>
     </div>
+    <a class="btn2 proj-more rv" href="https://www.instagram.com/art_media_show/" target="_blank" rel="noopener noreferrer">Больше проектов в Instagram ↗</a>
   </div>
 </section>
 
