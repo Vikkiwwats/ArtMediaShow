@@ -150,6 +150,56 @@
     ]
   },
   {
+    "id": "large-live-stage",
+    "title": "Большая концертная площадка",
+    "category": "Открытая сцена",
+    "meta": "Звук, свет и LED-экраны · 4 кадра",
+    "description": "Крупная открытая площадка AMS: крытая сцена, подвесные акустические системы, боковые LED-экраны, свет и сценические эффекты.",
+    "focus": "50% 50%",
+    "images": [
+      {
+        "src": "assets/about/live-event/fire-wide.webp",
+        "thumbnail": "assets/about/live-event/fire-wide-thumb.webp",
+        "width": 1680,
+        "height": 922,
+        "thumbnail_width": 720,
+        "thumbnail_height": 395,
+        "bytes": 154796,
+        "alt": "Общий вид концертной сцены с боковыми экранами, зрителями и огненными эффектами"
+      },
+      {
+        "src": "assets/about/live-event/fire-close.webp",
+        "thumbnail": "assets/about/live-event/fire-close-thumb.webp",
+        "width": 1600,
+        "height": 983,
+        "thumbnail_width": 720,
+        "thumbnail_height": 442,
+        "bytes": 102272,
+        "alt": "Концертная сцена с белыми лучами, огненными эффектами и зрителями"
+      },
+      {
+        "src": "assets/about/live-event/blue-crowd.webp",
+        "thumbnail": "assets/about/live-event/blue-crowd-thumb.webp",
+        "width": 1679,
+        "height": 937,
+        "thumbnail_width": 720,
+        "thumbnail_height": 402,
+        "bytes": 112226,
+        "alt": "Зрители с поднятыми руками перед сценой в синем и белом свете"
+      },
+      {
+        "src": "assets/about/live-event/day-stage.webp",
+        "thumbnail": "assets/about/live-event/day-stage-thumb.webp",
+        "width": 1280,
+        "height": 596,
+        "thumbnail_width": 720,
+        "thumbnail_height": 335,
+        "bytes": 91662,
+        "alt": "Дневная площадка ко Дню Независимости Беларуси: сцена, звук и LED-экраны"
+      }
+    ]
+  },
+  {
     "id": "gorshenev",
     "title": "Горшенёв — юбилейный концерт",
     "category": "Концертный тур",
