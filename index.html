@@ -765,8 +765,11 @@ html.work-dialog-open{overflow:hidden}
 /* Real event gallery in the company section. */
 .ab-event{min-width:0}
 .ab-event .ab-stage{display:block;aspect-ratio:16/9;scroll-margin-top:110px;background:#080a0e;border-radius:20px;isolation:isolate}
-.ab-event-slide{position:absolute;inset:0;margin:0;opacity:0;transition:opacity .45s ease;pointer-events:none}
-.ab-event-slide.is-active{opacity:1;z-index:1}
+.ab-event-slide{position:absolute;inset:0;margin:0;opacity:0;visibility:hidden;pointer-events:none}
+.ab-event-slide.is-previous{opacity:1;visibility:visible;z-index:1}
+.ab-event-slide.is-active{opacity:1;visibility:visible;z-index:2}
+.ab-event.has-advanced .ab-event-slide.is-active{animation:abEventIn .45s ease both}
+@keyframes abEventIn{from{opacity:0}to{opacity:1}}
 .ab-event .ab-stage img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain;object-position:center}
 .ab-event-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:3;display:grid;place-items:center;width:38px;height:38px;border:1px solid rgba(255,255,255,.28);border-radius:50%;background:rgba(5,7,10,.7);color:#fff;font:24px/1 'Manrope',sans-serif;cursor:pointer;backdrop-filter:blur(6px)}
 .ab-event-arrow:hover{background:var(--o1);border-color:var(--o1)}
@@ -795,7 +798,7 @@ html.work-dialog-open{overflow:hidden}
  .ab-event-arrow{width:34px;height:34px;font-size:22px}.ab-event-arrow[data-event-prev]{left:8px}.ab-event-arrow[data-event-next]{right:8px}
  .ab-event-controls{margin-top:10px;gap:10px}
 }
-@media(prefers-reduced-motion:reduce){.ab-event-slide,.ab-event-dot::after{transition:none}}
+@media(prefers-reduced-motion:reduce){.ab-event.has-advanced .ab-event-slide.is-active{animation:none}.ab-event-dot::after{transition:none}}
 
 </style>
 </head>
@@ -1215,8 +1218,10 @@ window.addEventListener('load',()=>{
  const motion=matchMedia('(prefers-reduced-motion: reduce)');
  let current=0,timer=null,paused=false,visible=false,hovered=false;
  function show(index){
+  const previous=current;
   current=(index+slides.length)%slides.length;
-  slides.forEach((slide,i)=>{slide.classList.toggle('is-active',i===current);slide.setAttribute('aria-hidden',String(i!==current));});
+  gallery.classList.toggle('has-advanced',previous!==current);
+  slides.forEach((slide,i)=>{slide.classList.toggle('is-active',i===current);slide.classList.toggle('is-previous',i===previous&&previous!==current);slide.setAttribute('aria-hidden',String(i!==current));});
   dots.forEach((dot,i)=>dot.setAttribute('aria-pressed',String(i===current)));
   counter.textContent=String(current+1).padStart(2,'0')+' / '+String(slides.length).padStart(2,'0');
  }
